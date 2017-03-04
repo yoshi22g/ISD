@@ -9,3 +9,135 @@ Template: popper
 Version: 0.1.0
 */
 
+@import url("../popper/style.css");
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+/*Custom Typeface: Favorit IDC Regular*/
+
+@font-face {
+  font-family: 'Favorit IDC';
+  src:  url('fonts/Favorit_IDC-Regular_web.woff2') format('woff2'),
+        url('fonts/Favorit_IDC-Regular_web.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+   font-family: 'Favorit IDC', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.widget ul,
+.widget ol,
+.widget_calendar,
+.site-firstletter,
+.site-title,
+.main-navigation,
+.comment-navigation,
+.posts-navigation,
+.post-navigation,
+.paging-navigation,
+.continue-reading a,
+.entry-content .continue-reading a,
+.entry-meta,
+.entry-footer,
+.index-entry-meta,
+.comment-meta,
+.reply a,
+.comment-form,
+.wp-caption,
+.gallery-caption,
+.site-footer {
+   font-family: 'Favorit IDC', 'Helvetica', 'Arial', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+h1 {
+   font-size: 9rem; /* Desktop 144px/180px */
+   line-height: 11.25rem;
+}
+
+h2 {
+   font-size: 4.5rem; /* Desktop 72px/89px */
+   line-height: 5.5625rem;
+}
+
+h3 {
+   font-size: 2.25rem; /* Desktop 36px/40px */
+   line-height: 2.5rem;
+}
+
+h4 {
+   font-size: 1.5rem; /* Desktop 24px/29px */
+   line-height: 1.8125rem;
+}
+
+p {
+   font-size: 1.125rem; /* Desktop 18px/20px */
+   line-height: 1.25rem;
+}
+
+p.small-text {
+   font-size: 1.5rem; /* Desktop 14px/18px */
+   line-height: 1.8125rem;
+}
+
+p.xsmall-text {
+   font-size: 0.8125rem; /* Desktop 13px/20px */
+   line-height: 1.25rem;
+}
+
+li.nav-text, .main-navigation a {
+   font-size: 1.25rem; /* Desktop 20px/25px */
+   line-height: 1.5625rem;
+   letter-spacing: 0.05rem
+}
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.site-header {
+    background-color: #ffffff;
+}
+
+.site-title {
+   display: none;
+}
+
+.site-logo a {
+   width: 3.5rem;
+   height: 3.5rem;
+   background: none;
+   top: .25rem;
+}
+
+/*--------------------------------------------------------------
+### Navigation
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+#### Main Menu
+--------------------------------------------------------------*/
+
+.main-navigation {
+   background-color: #ffffff
+}
+
+.main-navigation a {
+   color: #000000;
+}
