@@ -67,7 +67,8 @@ input[type="submit"],
 }
 
 
-h1 {
+h1,
+h1.entry-title {
    font-size: 9rem; /* Desktop 144px/180px */
    line-height: 11.25rem;
 }
@@ -85,19 +86,25 @@ h3 {
 h4 {
    font-size: 1.5rem; /* Desktop 24px/29px */
    line-height: 1.8125rem;
+   letter-spacing: 0.0075rem;
+}
+
+.textwidget h4 {
+   text-transform: uppercase;
+   letter-spacing: 0.0315rem;
 }
 
 p {
    font-size: 1.125rem; /* Desktop 18px/20px */
-   line-height: 1.25rem;
+   line-height: 1.5625rem;
 }
 
-p.small-text {
-   font-size: 1.5rem; /* Desktop 14px/18px */
+p.small-text, .profile h3.widget-title, .profile .textwidget p {
+   font-size: 0.875rem; /* Desktop 14px/18px */
    line-height: 1.8125rem;
 }
 
-p.xsmall-text {
+p.xsmall-text, .contact .textwidget h4, .contact .textwidget p {
    font-size: 0.8125rem; /* Desktop 13px/20px */
    line-height: 1.25rem;
 }
@@ -141,3 +148,67 @@ li.nav-text, .main-navigation a {
 .main-navigation a {
    color: #000000;
 }
+
+.main-navigation a:hover, .main-navigation a:focus {
+   background: none;
+   color: #FF3250;
+   text-decoration: none;
+   outline: none;
+}
+
+
+/*--------------------------------------------------------------
+#### Homepage
+--------------------------------------------------------------*/
+
+#post-5 header {
+   display: none;
+}
+
+#post-5 .widget-title {
+   display: none;
+}
+
+#post-5 .textwidget h4 {
+   text-transform: none;
+   letter-spacing: 0.0075rem;
+}
+
+/*--------------------------------------------------------------
+#### About
+--------------------------------------------------------------*/
+
+.profile h3.widget-title {
+   text-transform: uppercase;
+   line-height: 1.25rem;
+   letter-spacing: 0.0011875rem;
+   text-align: center;
+}
+
+.profile .textwidget p {
+   line-height: 1.25rem;
+   text-align: center;
+}
+
+.profile img {
+   margin: 0 auto;
+}
+
+.profile .panel-grid-cell {
+   max-width: 33%;
+}
+
+.profile div {
+   width: 100% !important;
+}
+
+.contact .textwidget h4 {
+   text-transform: none;
+   color: #9B9B9B;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+
