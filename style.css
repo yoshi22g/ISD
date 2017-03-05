@@ -327,6 +327,46 @@ article.category-news:not(:last-of-type)::after {
    text-align: center;
 }
 
+.paging-navigation a {
+   border: none;
+}
+
+.site-content li {
+   margin-right: 0.5rem;
+}
+
+
+li a.page-numbers {
+   padding: 0.25rem .75rem;
+   font-weight: normal;
+   background-color: #fff;
+   color: #000;
+   width: 1.5625rem;
+   height: 1.6875rem;
+   font-size: 1.125rem;
+}
+
+li a.page-numbers:hover, li a.page-numbers:focus {
+   color: #
+}
+
+
+li span.page-numbers.current {
+   background-color: black;
+   color: #fff;
+   padding: 0.25rem .75rem;
+   font-weight: normal;
+   width: 1.5625rem;
+   height: 1.6875rem;
+   font-size: 1.125rem;
+   border-radius: 4px;
+ }
+
+ li a.next.page-numbers {
+   padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+   width: 100%;
+ }
+
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
