@@ -83,7 +83,7 @@ h3, h3.entry-title, h3.entry-title a {
    line-height: 2.5rem;
 }
 
-h4 {
+h4, .sponsors h3.widget-title {
    font-size: 1.5rem; /* Desktop 24px/29px */
    line-height: 1.8125rem;
    text-transform: uppercase;
@@ -184,7 +184,7 @@ a:active {
 }
 
 /*** Buttons ***/
-.ow-button-base a.button {
+.ow-button-base a.button, .ow-button-base a.button:visited, .ow-button-base a.button:active {
    -ms-box-sizing: border-box;
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
