@@ -66,11 +66,21 @@ input[type="submit"],
    font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin-top: 1rem;
+}
+
 
 h1,
 h1.entry-title {
    font-size: 9rem; /* Desktop 144px/180px */
    line-height: 11.25rem;
+   text-align: center;
 }
 
 h2 {
@@ -115,6 +125,14 @@ li.nav-text, .main-navigation a {
    font-size: 1.25rem; /* Desktop 20px/25px */
    line-height: 1.5625rem;
    letter-spacing: 0.05rem
+}
+
+@media screen and (min-width: 40em) {
+
+   .entry-title {
+      margin-top: 0;
+   }
+
 }
 
 /*--------------------------------------------------------------
@@ -233,6 +251,24 @@ a:active {
 .main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
    font-weight: normal;
    color: #FF3250;
+}
+
+
+/*--------------------------------------------------------------
+#### Layout
+--------------------------------------------------------------*/
+
+
+@media screen and (min-width: 57em) {
+   .site-main {
+      max-width: 58.75rem;
+      margin: 1.8em auto;
+   }
+}
+
+.entry-content p {
+   max-width: 66%;
+   margin: 0 auto;
 }
 
 
@@ -407,8 +443,65 @@ hr {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+.widget {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   }
 
+@media screen and (min-width: 50em) {
+   .no-sidebar .widget:only-of-type,
+   .no-sidebar .widget:nth-last-child(2):first-child,
+   .no-sidebar .widget:nth-last-child(2):first-child ~ .widget {
 
+      width: 100%;
+   }
+
+   .page-content, .deck, .entry-content, .entry-summary {
+      padding: 0;
+   }
+}
+
+.so-widget-image {
+   margin: 0 auto;
+}
+
+/*@media screen and (min-width: 45em) {
+   #secondary {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 1.8em;
+   }
+
+   .widget {
+      float: left;
+      width: 100%;
+      margin: 0 .9em 1.8em;
+   }
+}
+
+@media screen and (min-width: 50em) {
+
+   /* If only one or only two widgets are displayed, make them twice as wide.
+   .no-sidebar .widget:only-of-type,
+   .no-sidebar .widget:nth-last-child(2):first-child,
+   .no-sidebar .widget:nth-last-child(2):first-child ~ .widget {
+      width: calc(940px + 1.8em);
+   }
+
+   @media screen and (min-width: 86em) {
+      .no-sidebar .widget:nth-child(2) {
+         width: calc(940px + 1.8em);
+      }
+   }
+
+   .no-sidebar .widget-title {
+      margin-top: 0;
+   }
+
+}
+*/
 
 /*--------------------------------------------------------------
 # Footer
