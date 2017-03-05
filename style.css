@@ -96,12 +96,12 @@ h5 {
    letter-spacing: 0.0075rem;
 }
 
-p {
+p, .widget ul li a {
    font-size: 1.125rem; /* Desktop 18px/26px */
    line-height: 1.625rem;
 }
 
-p.small-text, .profile h3.widget-title, .profile .textwidget p, .meta-nav, .post-navigation .post-title {
+p.small-text, .profile h3.widget-title, .profile .textwidget p, .meta-nav, .post-navigation .post-title, span.post-date {
    font-size: 0.875rem; /* Desktop 14px/18px */
    line-height: 1.8125rem;
 }
@@ -248,6 +248,11 @@ a:active {
    display: none;
 }
 
+span.post-date {
+   display: block;
+   color: #9B9B9B;
+}
+
 
 /*--------------------------------------------------------------
 #### About
@@ -389,4 +394,27 @@ li span.page-numbers.current {
     padding: 3.75rem 1rem;
     color: #000;
     background: #fff;
+    width: 100%;
  }
+
+nav.site-info {
+   margin: 0 auto;
+   width: 58.75rem;
+}
+
+ nav.site-info ul {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0;
+ }
+
+ nav.site-info ul li {
+   margin: auto;
+}
+
+li.social-icons ul li {
+   display: inline-block;
+   margin-right: 1rem;
+}
