@@ -382,6 +382,29 @@ li span.page-numbers.current {
  }
 
 /*--------------------------------------------------------------
+## Learning & Making
+--------------------------------------------------------------*/
+
+#post-29 h1.entry-title {
+   display: none;
+}
+
+#learning-making h2, #learning-making h4 {
+   text-align: center;
+}
+
+.classes-hosted p {
+   margin-bottom: 1rem;
+}
+
+hr {
+   background-color: #000000;
+   border: 0;
+   height: 1px;
+   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 
