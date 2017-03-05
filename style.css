@@ -179,6 +179,10 @@ a:active {
    border: none;
 }
 
+.entry-footer span a:hover, .index-entry-meta a:hover {
+   color: #ff3250;
+}
+
 /*** Buttons ***/
 .ow-button-base a.button {
    -ms-box-sizing: border-box;
@@ -319,7 +323,12 @@ article.category-news:not(:last-of-type)::after {
     margin: 3rem auto;
  }
 
-.meta-nav {
+.meta-nav a {
+   color: #9B9B9B;
+}
+
+.entry-footer span a, .index-entry-meta a {
+   font-weight: normal;
    color: #9B9B9B;
 }
 
@@ -347,7 +356,7 @@ li a.page-numbers {
 }
 
 li a.page-numbers:hover, li a.page-numbers:focus {
-   color: #
+   color: #FF3250;
 }
 
 
