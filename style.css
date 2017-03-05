@@ -95,8 +95,8 @@ h4 {
 }
 
 p {
-   font-size: 1.125rem; /* Desktop 18px/20px */
-   line-height: 1.5625rem;
+   font-size: 1.125rem; /* Desktop 18px/26px */
+   line-height: 1.625rem;
 }
 
 p.small-text, .profile h3.widget-title, .profile .textwidget p {
@@ -132,6 +132,74 @@ li.nav-text, .main-navigation a {
    background: none;
    top: .25rem;
 }
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+.page-content a, .page-content a, .entry-content a, .entry-content a, .entry-summary a, .entry-summary a, .comment-content a, .comment-content a {
+   color: #000;
+   border: none;
+   text-decoration: none;
+}
+
+.page-content a:hover, .page-content a:focus, .entry-content a:hover, .entry-content a:focus, .entry-summary a:hover, .entry-summary a:focus, .comment-content a:hover, .comment-content a:focus {
+   border: none;
+   box-shadow: none;
+   text-decoration: none;
+}
+
+a:link {
+   color: #000;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #000;
+}
+
+a:hover,
+a:focus,
+a:active {
+   color: black;
+   border: none;
+   text-decoration: none;
+}
+
+a:focus {
+   outline: none;
+   border: none;
+}
+
+a:hover,
+a:active {
+   outline: none;
+   color: #FF3250;
+   border: none;
+}
+
+/*** Buttons ***/
+.ow-button-base a.button {
+   -ms-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 1.125rem; /* Desktop 18px/26px */
+   line-height: 1.625rem;
+   padding: .5em 2em;
+   background: none;
+   border: 2px solid #00D2C8;
+   color: #00D2C8 !important;
+   -webkit-border-radius: 0.25em;
+   -moz-border-radius: 0.25em;
+   border-radius: 0.25em;
+   text-shadow: none;
+}
+
+.ow-button-base a.ow-button-hover.button:hover {
+   background: #00D2C8;
+   color: #FFFFFF !important;
+}
+
 
 /*--------------------------------------------------------------
 ### Navigation
@@ -195,7 +263,7 @@ li.nav-text, .main-navigation a {
 }
 
 .profile .panel-grid-cell {
-   max-width: 33%;
+   max-width: 25%;
 }
 
 .profile div {
@@ -212,3 +280,12 @@ li.nav-text, .main-navigation a {
 --------------------------------------------------------------*/
 
 
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.site-footer {
+    padding: 3.75rem 1rem;
+    color: #000;
+    background: #fff;
+ }
