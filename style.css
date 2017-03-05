@@ -98,6 +98,7 @@ h4, .sponsors h3.widget-title {
    line-height: 1.8125rem;
    text-transform: uppercase;
    letter-spacing: 0.0315rem;
+   text-align: center;
 }
 
 h5 {
@@ -131,6 +132,7 @@ li.nav-text, .main-navigation a {
 
    .entry-title {
       margin-top: 0;
+      margin-bottom: 1rem;
    }
 
 }
@@ -268,7 +270,7 @@ a:active {
 
 .entry-content p {
    max-width: 66%;
-   margin: 0 auto;
+   margin: 0 auto 2rem auto;
 }
 
 
@@ -364,6 +366,15 @@ article.category-news:not(:last-of-type)::after {
     margin: 3rem auto;
  }
 
+article.category-news .entry-content p {
+   max-width: 83%;
+}
+
+article.category-news .entry-content p img {
+   display: block;
+   margin: 0 auto;
+}
+
 .meta-nav a {
    color: #9B9B9B;
 }
@@ -416,6 +427,10 @@ li span.page-numbers.current {
    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
    width: 100%;
  }
+
+ li a.prev.page-numbers {
+   margin-right: 4.75rem;
+}
 
 /*--------------------------------------------------------------
 ## Learning & Making
