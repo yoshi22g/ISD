@@ -314,11 +314,7 @@ span.post-date {
 }
 
 .profile .panel-grid-cell {
-   max-width: 33%;
-}
-
-.profile .panel-grid-cell .half {
-   max-width: 50%;
+   max-width: 25%;
 }
 
 .profile div {
