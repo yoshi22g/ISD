@@ -446,6 +446,7 @@ li span.page-numbers.current {
 
 .classes-hosted p {
    margin-bottom: 1rem;
+   margin-top: 1rem;
 }
 
 hr {
@@ -453,6 +454,7 @@ hr {
    border: 0;
    height: 1px;
    margin-bottom: 0;
+   max-width: 66%;
 }
 
 /*--------------------------------------------------------------
@@ -470,7 +472,16 @@ hr {
    .no-sidebar .widget:nth-last-child(2):first-child ~ .widget {
 
       width: 100%;
+
    }
+
+   @media screen and (min-width: 86em) {
+      .no-sidebar .widget:nth-child(2) {
+         width: 100%;
+      }
+   }
+
+
 
    .page-content, .deck, .entry-content, .entry-summary {
       padding: 0;
