@@ -280,6 +280,26 @@ a:active {
 }
 
 /*--------------------------------------------------------------
+# Research
+--------------------------------------------------------------*/
+
+.research-slider-caption h3.widget-title {
+   text-transform: none;
+}
+
+.research-slider-caption .textwidget p a, .research-slider-caption .textwidget p a:link, .research-slider-caption .textwidget p a:visited {
+   color: #00D2C8;
+}
+
+.research-slider-caption .textwidget p a:hover, .research-slider-caption .textwidget p a:focus {
+   color: #FF3250;
+}
+
+.research-slider-caption .textwidget p a:active {
+   color: #000;
+}
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 
