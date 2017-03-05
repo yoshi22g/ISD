@@ -86,12 +86,14 @@ h3 {
 h4 {
    font-size: 1.5rem; /* Desktop 24px/29px */
    line-height: 1.8125rem;
-   letter-spacing: 0.0075rem;
-}
-
-.textwidget h4 {
    text-transform: uppercase;
    letter-spacing: 0.0315rem;
+}
+
+h5 {
+   font-size: 1.5rem; /* Desktop 24px/29px */
+   line-height: 1.8125rem;
+   letter-spacing: 0.0075rem;
 }
 
 p {
@@ -226,6 +228,7 @@ a:active {
 
 .main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
    font-weight: normal;
+   color: #FF3250;
 }
 
 
@@ -241,10 +244,6 @@ a:active {
    display: none;
 }
 
-#post-5 .textwidget h4 {
-   text-transform: none;
-   letter-spacing: 0.0075rem;
-}
 
 /*--------------------------------------------------------------
 #### About
@@ -274,8 +273,7 @@ a:active {
    width: 100% !important;
 }
 
-.contact .textwidget h4 {
-   text-transform: none;
+.contact .textwidget h5 {
    color: #9B9B9B;
 }
 
@@ -298,6 +296,15 @@ a:active {
 .research-slider-caption .textwidget p a:active {
    color: #000;
 }
+
+/*--------------------------------------------------------------
+# Research
+--------------------------------------------------------------*/
+
+.labs .textwidget p, .labs .textwidget h5 {
+   text-align: center;
+}
+
 
 /*--------------------------------------------------------------
 # Widgets
