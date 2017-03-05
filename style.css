@@ -86,6 +86,7 @@ h1.entry-title {
 h2 {
    font-size: 4.5rem; /* Desktop 72px/89px */
    line-height: 5.5625rem;
+   text-align: center;
 }
 
 h3, h3.entry-title, h3.entry-title a {
@@ -107,7 +108,7 @@ h5 {
    letter-spacing: 0.0075rem;
 }
 
-p, .widget ul li a {
+p, .widget ul li a, td {
    font-size: 1.125rem; /* Desktop 18px/26px */
    line-height: 1.625rem;
 }
@@ -313,7 +314,11 @@ span.post-date {
 }
 
 .profile .panel-grid-cell {
-   max-width: 25%;
+   max-width: 33%;
+}
+
+.profile .panel-grid-cell .half {
+   max-width: 50%;
 }
 
 .profile div {
@@ -456,6 +461,22 @@ hr {
    margin-bottom: 0;
    max-width: 66%;
 }
+
+
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+
+#post-93 .entry-title {
+   display: none;
+}
+
+.textwidget .supsystic-tables-wrap {
+   width: 67%;
+   margin: 0 auto;
+}
+
+
 
 /*--------------------------------------------------------------
 # Widgets
