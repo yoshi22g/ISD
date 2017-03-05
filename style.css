@@ -530,6 +530,83 @@ hr {
 */
 
 /*--------------------------------------------------------------
+# Search
+--------------------------------------------------------------*/
+input[type="submit"] {
+   -webkit-appearance: none;
+   border: 3px solid;
+   border-color: #fff;
+   border-radius: 0;
+   background: #fff;
+   color: rgba(0,0,0,0);
+   font-size: 0.75rem;
+   line-height: 1;
+   padding: .6em 1em .4em;
+   background-image: url('images/search_black.svg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 1rem;
+}
+
+input[type="submit"]:hover {
+   -webkit-appearance: none;
+   border: 3px solid;
+   border-color: #fff;
+   border-radius: 0;
+   background: #fff;
+   color: rgba(0,0,0,0);
+   font-size: 0.75rem;
+   line-height: 1;
+   padding: .6em 1em .4em;
+   background-image: url('images/search_pink.svg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 1rem;
+}
+
+input[type="search"] {
+   width: 20%;
+   position: relative;
+   background: transparent;
+   left: 16%;
+   border: none;
+   -webkit-transition: all 400ms ease, background 400ms ease;
+   transition:         all 400ms ease, background 400ms ease;
+}
+
+input[type="search"]:hover {
+   cursor: pointer;
+}
+
+
+input[type="search"]:focus {
+   position: fixed;
+   background-color: rgba(255,255,255,0.8);
+   cursor: text;
+   outline: 0;
+   width: 940px;
+   height: 100vh;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   padding: 400px;
+   z-index: 200;
+   color: #FF3250;
+   font-size: 4.5rem; /* Desktop 72px/89px */
+   line-height: 5.5625rem;
+   margin-top: -70vh;
+   font-family: 'Favorit IDC';
+   vertical-align: top;
+
+}
+.search-form .search-submit {
+   display:none;
+}
+
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
