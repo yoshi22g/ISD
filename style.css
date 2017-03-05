@@ -78,7 +78,7 @@ h2 {
    line-height: 5.5625rem;
 }
 
-h3 {
+h3, h3.entry-title, h3.entry-title a {
    font-size: 2.25rem; /* Desktop 36px/40px */
    line-height: 2.5rem;
 }
@@ -298,13 +298,26 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Research
+# Labs
 --------------------------------------------------------------*/
 
 .labs .textwidget p, .labs .textwidget h5 {
    text-align: center;
 }
 
+
+/*--------------------------------------------------------------
+# News
+--------------------------------------------------------------*/
+
+article.category-news:not(:last-of-type)::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    display: block;
+    margin: 3rem auto;
+ }
 
 /*--------------------------------------------------------------
 # Widgets
