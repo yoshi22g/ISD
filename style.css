@@ -21,13 +21,16 @@ Version: 0.1.0
 @font-face {
   font-family: 'Favorit IDC';
   src:  url('fonts/Favorit_IDC-Regular_web.woff2') format('woff2'),
-        url('fonts/Favorit_IDC-Regular_web.woff') format('woff');
+        url('fonts/Favorit_IDC-Regular_web.woff') format('woff'),
+        url('fonts/FavoritIDC-Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 * {
    font-family: 'Favorit IDC', 'Helvetica', 'Arial', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -112,7 +115,7 @@ h5 {
 }
 
 p,
-.widget ul li a, td {
+.widget ul li a, td, body.search h1.page-title {
    font-size: 1.125rem; /* Desktop 18px/26px */
    line-height: 1.625rem;
 }
@@ -138,7 +141,7 @@ li.nav-text,
 .main-navigation a {
    font-size: 1.25rem; /* Desktop 20px/25px */
    line-height: 1.5625rem;
-   letter-spacing: 0.05rem
+   /*letter-spacing: 0.05rem*/
 }
 
 @media screen and (min-width: 40em) {
@@ -161,12 +164,6 @@ li.nav-text,
    display: none;
 }
 
-.site-logo a {
-   width: 3.5rem;
-   height: 3.5rem;
-   background: none;
-   top: .25rem;
-}
 
 /*--------------------------------------------------------------
 # Links
@@ -217,7 +214,7 @@ a:active {
 }
 
 /*** Buttons ***/
-.ow-button-base a.button, .ow-button-base a.button:visited, .ow-button-base a.button:active {
+.ow-button-base a.button, .ow-button-base a.button:visited, .ow-button-base a.button:active, .ow-button-base a:visited, .ow-button-base a:active, .ow-button-base .ow-button-align-center {
    -ms-box-sizing: border-box;
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
@@ -226,7 +223,7 @@ a:active {
    line-height: 1.625rem;
    padding: .5em 2em;
    background: none;
-   border: 2px solid #00D2C8;
+   border: 1px solid #00D2C8;
    color: #00D2C8 !important;
    -webkit-border-radius: 0.25em;
    -moz-border-radius: 0.25em;
@@ -234,7 +231,8 @@ a:active {
    text-shadow: none;
 }
 
-.ow-button-base a.ow-button-hover.button:hover {
+
+.ow-button-base a.ow-button-hover.button:hover, .ow-button-base a:hover {
    background: #00D2C8;
    color: #FFFFFF !important;
 }
@@ -249,11 +247,14 @@ a:active {
 --------------------------------------------------------------*/
 
 .main-navigation {
-   background-color: #ffffff
+   background-color: #ffffff;
+   width: 58.75%;
+   padding: 0;
 }
 
 .main-navigation a {
    color: #000000;
+   padding: 0.8em .78125rem;
 }
 
 .main-navigation a:hover, .main-navigation a:focus {
@@ -268,10 +269,33 @@ a:active {
    color: #FF3250;
 }
 
+.main-navigation .site-logo {
+   position: absolute;
+}
+
+.main-navigation .site-logo a {
+   position: static;
+   background: none;
+}
+
+.main-navigation .site-logo a:first-child {
+   display: none;
+}
+
+
+.site-logo a.custom-logo-link {
+   width: 3.5rem;
+   height: 3.5rem;
+   padding: 0;
+}
 
 /*--------------------------------------------------------------
 #### Layout
 --------------------------------------------------------------*/
+
+.entry-footer::before, .entry-footer::after {
+   display: none;
+}
 
 
 @media screen and (min-width: 57em) {
@@ -561,6 +585,12 @@ hr {
 /*--------------------------------------------------------------
 # Search
 --------------------------------------------------------------*/
+form.bop-nav-search {
+   position: absolute;
+   top: -3.5rem;
+   right: -2.5rem;
+}
+
 input[type="submit"] {
    -webkit-appearance: none;
    border: 3px solid;
@@ -633,6 +663,19 @@ input[type="search"]:focus {
    display:none;
 }
 
+/**** Search Results ****/
+body.search h1.page-title {
+   font-style: normal;
+   color: #9B9B9B;
+}
+
+body.search h1.page-title span {
+   color: #FF3250;
+}
+
+body.search .page-header::after {
+   display: none;
+}
 
 
 /*--------------------------------------------------------------
