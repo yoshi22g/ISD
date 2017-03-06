@@ -271,11 +271,13 @@ a:active {
 
 .main-navigation .site-logo {
    position: absolute;
+   top: 0.7rem;
 }
 
 .main-navigation .site-logo a {
    position: static;
    background: none;
+   border: 0;
 }
 
 .main-navigation .site-logo a:first-child {
@@ -284,8 +286,8 @@ a:active {
 
 
 .site-logo a.custom-logo-link {
-   width: 3.5rem;
-   height: 3.5rem;
+   width: 2.75rem;
+   height: 2.75rem;
    padding: 0;
 }
 
