@@ -52,7 +52,10 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-		<?php endif; ?>
+		<?php endif;
+		do_action( 'show_index_widget' );
+		?>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

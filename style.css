@@ -471,6 +471,33 @@ li span.page-numbers.current {
    margin-right: 4.75rem;
 }
 
+#index-only-widget .textwidget h5, #index-only-widget .textwidget p {
+   font-size: 0.8125rem; /* Desktop 13px/20px */
+   line-height: 1.25rem;
+   margin: 0;
+}
+
+#index-only-widget h5 {
+   color: #9b9b9b !important;
+}
+
+#index-only-widget {
+   border: 1px solid rgba(155, 155, 155, .5);
+   overflow: auto;
+   padding: 13px 20px 11px 20px;
+   border-radius: 2px;
+   width: 82.97%;
+   margin: 0 auto;
+}
+
+#index-only-widget .textwidget > div {
+   float: left;
+}
+
+#index-only-widget .textwidget > div:last-of-type {
+   margin-left: 12.82%;
+}
+
 /*--------------------------------------------------------------
 ## Learning & Making
 --------------------------------------------------------------*/

@@ -51,4 +51,36 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+
+add_action( 'wp_loaded', 'wpse_76959_register_widget_area' );
+function wpse_76959_register_widget_area()
+{
+    register_sidebar(
+        array (
+            'name'          => __(
+                'Widgets on page Index Page',
+                'idc'
+                ),
+            'description'   => __(
+                'Will be used on a Index page only.',
+                'idc'
+                ),
+            'id'            => 'index-only',
+            'before_widget' => '<div id="index-only-widget">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h2>',
+            'after_title'   => '</h2>',
+        )
+    );
+}
+
+
+function wpse_76959_render_widget()
+{
+    is_home() && dynamic_sidebar( 'index-only' );
+    remove_action( current_filter(), __FUNCTION__ );
+}
+add_action( 'show_index_widget', 'wpse_76959_render_widget' );
+
+
 ?>
