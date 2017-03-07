@@ -537,6 +537,30 @@ hr {
    margin: 0 auto;
 }
 
+body#events, #events footer {
+   background-color: #000000;
+   color: #ffffff;
+}
+
+#events .site-header, #events .main-navigation, #events .widget, #events .site-main, #events .entry-content, #events table, #events td {
+    background-color: black;
+    color: #ffffff;
+ }
+
+#events .main-navigation a {
+   color: white;
+}
+
+#events .main-navigation a:hover {
+   color: #ff3250;
+}
+
+#events .main-navigation .current-menu-item > a,
+#events .main-navigation .current-menu-ancestor > a,
+#events .main-navigation .current_page_item > a,
+#events .main-navigation .current_page_ancestor > a {
+   color: #FF3250;
+}
 
 
 /*--------------------------------------------------------------

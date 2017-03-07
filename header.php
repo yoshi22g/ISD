@@ -20,7 +20,13 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<?php 
+	$url = explode('/', $_SERVER['REQUEST_URI']);
+	$dir = $url[2] ? $url[2] : 'home';
+?>
+
+
+<body <?php body_class(); ?> id="<?php echo $dir ?>">
 <div id="page" class="hfeed site <?php echo get_theme_mod( 'layout_setting', 'no-sidebar' ); ?>">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'idc' ); ?></a>
 
