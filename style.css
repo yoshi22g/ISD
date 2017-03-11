@@ -243,6 +243,13 @@ a:active {
    color: #FFFFFF !important;
 }
 
+/*** Images ***/
+
+.profile img:hover {
+    background: #00D2C8;
+    cursor: pointer;
+}
+
 
 /*--------------------------------------------------------------
 ### Navigation
@@ -474,6 +481,7 @@ span.post-date {
 
 .profile img {
    margin: 0 auto;
+   background: #fff;
 }
 
 #leadership .panel-grid-cell, #staff .panel-grid-cell {
@@ -575,8 +583,7 @@ span.post-date {
 
 #research .site-header,
 #research .main-navigation {
-    background-color: black;
-    color: #ffffff;
+   color: #ffffff;
  }
 
 #research .main-navigation a {
@@ -1053,7 +1060,21 @@ nav.site-info {
    margin: auto;
 }
 
+nav.site-info > ul > li:first-child {
+   padding-top: 8px;
+   box-sizing: border-box;
+   margin-left: 0;
+}
+
 li.social-icons ul li {
    display: inline-block;
    margin-right: 1rem;
+}
+
+li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
+   opacity: 0.7;
+}
+
+#mit-logo {
+   margin-right: 0;
 }

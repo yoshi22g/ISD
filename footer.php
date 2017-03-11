@@ -56,7 +56,7 @@
 						</li>
 					</ul>
 				</li>
-				<li>				
+				<li id='mit-logo'>				
 					<a href="<?php echo esc_url( __( 'http://web.mit.edu/', 'idc' ) ); ?>">
 					<!-- check if this is the events page by confirming the $dir variable from header.php -->
 					
