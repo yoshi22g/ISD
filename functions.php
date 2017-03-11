@@ -83,4 +83,6 @@ function wpse_76959_render_widget()
 add_action( 'show_index_widget', 'wpse_76959_render_widget' );
 
 
+
+
 ?>

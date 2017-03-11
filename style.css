@@ -359,7 +359,8 @@ span.post-date {
 #home-slider .bx-wrapper .bx-controls-direction a.bx-next {
     display:block;
     position: absolute;
-    bottom: 44px;
+    bottom: 44px !important;
+    top: auto;
     outline: 0;
     width: 76px !important;
     height: 38px !important;
@@ -369,10 +370,18 @@ span.post-date {
     left: 0;
     background-color: white !important;
     margin-top: 4px;
+    background: #fff url(images/right-arrow.svg) no-repeat 11px 11px !important;
+}
+
+#home-slider .bx-wrapper .bx-controls-direction a.bx-next:hover {
+   transform: translateX(0px);
+   -webkit-transform: translateX(0px);
 }
 
 #home-slider .bx-wrapper .bx-pager {
-   bottom: 100px;
+   bottom: 44px;
+   right: 10px;
+   width: auto;
 }
 
 #home-slider .bx-wrapper .bx-pager.bx-default-pager a:hover, #home-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
@@ -393,7 +402,18 @@ span.post-date {
     border: 1px solid #fff;
  }
 
+#home-slider .bx-wrapper .bx-caption {
+   padding-left: 0;
+}
 
+#home-slider .bx-wrapper .bx-pager .bx-pager-item, #home-slider .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding-left: 2px;
+    width: auto;
+
+ }
 
 /*--------------------------------------------------------------
 #### About
