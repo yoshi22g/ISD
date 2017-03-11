@@ -22,7 +22,7 @@
 
 <?php 
 	$url = explode('/', $_SERVER['REQUEST_URI']);
-	$dir = $url[1] ? $url[1] : 'home';
+	$dir = $url[2] ? $url[2] : 'home';
 ?>
 
 
@@ -77,6 +77,10 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'nav-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
 		<?php endif; ?>
+
 	</header><!-- #masthead -->
+		<?php if ($dir == 'research'): ?>
+			<?php echo do_shortcode('[supsystic-slider id=3 position="center"]'); ?>
+		<?php endif; ?>
 
 	<div id="content" class="site-content">
