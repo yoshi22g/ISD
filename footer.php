@@ -19,7 +19,7 @@
 			<ul>
 				<?php 
 						$url = explode('/', $_SERVER['REQUEST_URI']);
-						$dir = $url[2] ? $url[2] : 'home';
+						$dir = $url[1] ? $url[1] : 'home';
 					?>
 				<li><a href="<?php echo esc_url( __( 'https://idc.mit.edu', 'idc' ) ); ?>">
 
