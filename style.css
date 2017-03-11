@@ -456,11 +456,20 @@ span.post-date {
    line-height: 1.25rem;
    letter-spacing: 0.0011875rem;
    text-align: center;
+   margin: 0;
+   position: relative;
+   top: calc(160px + 1.25rem + 75px);
+}
+
+.entry-content .profile p {
+   max-width: 100%;
+
 }
 
 .profile .textwidget p {
    line-height: 1.25rem;
    text-align: center;
+   margin-top: 50px;
 }
 
 .profile img {
@@ -468,7 +477,7 @@ span.post-date {
 }
 
 .profile .panel-grid-cell {
-   max-width: 25%;
+   max-width: 220px;
 }
 
 .profile div {
@@ -477,6 +486,14 @@ span.post-date {
 
 .contact .textwidget h5 {
    color: #9B9B9B;
+}
+
+.floatyleft div.widget {
+   float: left;
+}
+
+.panel-grid-cell .so-panel:after {
+   clear: none !important;
 }
 
 
