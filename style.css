@@ -331,6 +331,70 @@ span.post-date {
 }
 
 
+@media screen and (min-width: 40em) {
+   #home-text .col {
+      float: left;
+   }
+
+   #home-text .panel-first-child {
+      width: 57.55%;
+      margin-right: 12.88%;
+   }
+
+   #home-text .panel-last-child {
+      width: 29.57%;
+   }
+
+
+}
+
+#home-slider .bx-wrapper .bx-controls-direction {
+    opacity: 1.0;
+ }
+
+ #home-slider .bx-wrapper .bx-controls-direction a.bx-prev {
+   display: none;
+ }
+
+#home-slider .bx-wrapper .bx-controls-direction a.bx-next {
+    display:block;
+    position: absolute;
+    bottom: 44px;
+    outline: 0;
+    width: 76px !important;
+    height: 38px !important;
+    text-indent: -9999px;
+    z-index: 9999;
+    border: none;
+    left: 0;
+    background-color: white !important;
+    margin-top: 4px;
+}
+
+#home-slider .bx-wrapper .bx-pager {
+   bottom: 100px;
+}
+
+#home-slider .bx-wrapper .bx-pager.bx-default-pager a:hover, #home-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #fff;
+}
+
+#home-slider .bx-wrapper .bx-pager.bx-default-pager a {
+    background: transparent;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+ }
+
+
+
 /*--------------------------------------------------------------
 #### About
 --------------------------------------------------------------*/
@@ -669,6 +733,18 @@ input[type="submit"] {
    width: 1rem;
 }
 
+body#research input[type="submit"], body#events input[type="submit"] {
+   border-color: #000;
+   background: #000;
+   background-image: url('images/search_white.svg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 1rem;
+   font-size: 0.75rem;
+   line-height: 1;
+   -webkit-appearance: none;
+}
+
 input[type="submit"]:hover {
    -webkit-appearance: none;
    border: 3px solid;
@@ -676,6 +752,21 @@ input[type="submit"]:hover {
    border-radius: 0;
    background: #fff;
    color: rgba(0,0,0,0);
+   font-size: 0.75rem;
+   line-height: 1;
+   padding: .6em 1em .4em;
+   background-image: url('images/search_pink.svg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 1rem;
+}
+
+body#research input[type="submit"]:hover, body#events input[type="submit"]:hover {
+   -webkit-appearance: none;
+   border: 3px solid;
+   border-color: #000;
+   border-radius: 0;
+   background: #000;
    font-size: 0.75rem;
    line-height: 1;
    padding: .6em 1em .4em;
