@@ -252,15 +252,28 @@ a:active {
 #### Main Menu
 --------------------------------------------------------------*/
 
-.main-navigation {
-   background-color: #ffffff;
-   width: 58.75%;
-   padding: 0;
+@media screen and (min-width: 60em) {
+   .main-navigation {
+      background-color: #ffffff;
+      width: 940px;
+      padding: 0;
+   }
+}
+
+.main-navigation li {
+   margin-left: -4px;
 }
 
 .main-navigation a {
    color: #000000;
-   padding: 0.8em .78125rem;
+   padding-top: 0.8em;
+   padding-bottom: 0.8em;
+   padding-left: 28px;
+   padding-right: 0;
+}
+
+.main-navigation #primary-menu li:first-child a {
+   padding-left: 65px;
 }
 
 .main-navigation a:hover, .main-navigation a:focus {
@@ -299,6 +312,13 @@ a:active {
    height: 2.75rem;
    padding: 0;
 }
+
+li.bop-nav-search {
+   float: right;
+   height: 3.5rem;
+ }
+
+
 
 /*--------------------------------------------------------------
 #### Layout
@@ -862,9 +882,7 @@ body#events, #events footer {
 # Search
 --------------------------------------------------------------*/
 form.bop-nav-search {
-   position: absolute;
-   top: -24px;
-   right: -2.5rem;
+   margin-top: 13px;
 }
 
 input[type="submit"] {
@@ -882,7 +900,7 @@ input[type="search"] {
    line-height: 1;
    padding: .6em 1em .4em;
    background-image: url('images/search_black.svg');
-   background-position: center center;
+   background-position: center right;
    background-repeat: no-repeat;
    width: 1rem;
 }
@@ -931,7 +949,7 @@ body#research input[type="search"]:hover, body#events input[type="search"]:hover
 }
 
 input[type="search"] {
-   width: 60%;
+   width: 1rem;
    position: relative;
    left: 0;
    border: none;
