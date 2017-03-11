@@ -348,6 +348,7 @@ span.post-date {
 
 }
 
+
 #home-slider .bx-wrapper .bx-controls-direction {
     opacity: 1.0;
  }
@@ -384,7 +385,8 @@ span.post-date {
    width: auto;
 }
 
-#home-slider .bx-wrapper .bx-pager.bx-default-pager a:hover, #home-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+#home-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#home-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
     background: #fff;
 }
 
@@ -446,6 +448,46 @@ span.post-date {
 .contact .textwidget h5 {
    color: #9B9B9B;
 }
+
+
+#about-slider .bx-wrapper .bx-pager {
+   bottom: 30px;
+   right: 20px;
+   width: auto;
+   height: 20px;
+}
+
+#about-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#about-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #fff;
+}
+
+#about-slider .bx-wrapper .bx-pager.bx-default-pager a {
+    background: transparent;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+ }
+
+#about-slider .bx-wrapper .bx-controls-direction a {
+   display: none;
+}
+
+#about-slider .bx-wrapper .bx-pager .bx-pager-item, #about-slider .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding-left: 2px;
+    width: auto;
+
+ }
 
 /*--------------------------------------------------------------
 # Research
