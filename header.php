@@ -61,15 +61,9 @@
 						<div class="screen-reader-text">
 							<?php printf( esc_html__('Go to the home page of %1$s', 'idc'), $site_title ); ?>
 						</div>
-						<?php
-							// Display logo if Custom Logo or Site Icon is defined, otherwise display First Letter
-							if ( popper_custom_logo() ) {
-								echo popper_custom_logo();
-							} else { ?>
-								<div class="site-firstletter" aria-hidden="true">
-									<?php echo substr($site_title, 0, 1); ?>
-								</div>
-						<?php } ?>
+					</a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="custom-logo-link">
+						<img class="custom-logo" src="<?php echo get_stylesheet_directory_uri() ?>/images/idc_pink_v3.svg"/>
 					</a>
 				</div>
 
