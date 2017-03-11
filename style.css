@@ -380,8 +380,11 @@ span.post-date {
    #home-text .panel-last-child {
       width: 29.57%;
    }
+}
 
-
+#home-text .widget_recent-posts .col li, #home-text .widget_recent-posts .col li a  {
+   font-size: 1.125rem;
+   line-height: 1.25rem;
 }
 
 
