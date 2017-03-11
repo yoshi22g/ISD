@@ -476,25 +476,41 @@ span.post-date {
    margin: 0 auto;
 }
 
-.profile .panel-grid-cell {
-   max-width: 220px;
+#leadership .panel-grid-cell, #staff .panel-grid-cell {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: start;
+   -ms-flex-align: start;
+           align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+
 }
 
+#leadership .panel-grid-cell > .widget {
+   width: 220px;
+   margin: auto !important;
+}
+
+#staff .panel-grid-cell > .widget {
+   margin: 0 20px;
+   width: 220px;
+}
+
+/*
 .profile div {
    width: 100% !important;
-}
+}*/
 
 .contact .textwidget h5 {
    color: #9B9B9B;
 }
 
-.floatyleft div.widget {
-   float: left;
-}
-
-.panel-grid-cell .so-panel:after {
-   clear: none !important;
-}
 
 
 #about-slider .bx-wrapper .bx-pager {
@@ -926,7 +942,7 @@ body#research input[type="search"], body#events input[type="search"] {
    border-color: #000;
    background: #000;
    background-image: url('images/search_white.svg');
-   background-position: center center;
+   background-position: center right;
    background-repeat: no-repeat;
    width: 1rem;
    font-size: 0.75rem;
@@ -945,7 +961,7 @@ input[type="search"]:hover {
    line-height: 1;
    padding: .6em 1em .4em;
    background-image: url('images/search_pink.svg');
-   background-position: center center;
+   background-position: center right;
    background-repeat: no-repeat;
    width: 1rem;
 }
@@ -960,18 +976,9 @@ body#research input[type="search"]:hover, body#events input[type="search"]:hover
    line-height: 1;
    padding: .6em 1em .4em;
    background-image: url('images/search_pink.svg');
-   background-position: center center;
+   background-position: center right;
    background-repeat: no-repeat;
    width: 1rem;
-}
-
-input[type="search"] {
-   width: 1rem;
-   position: relative;
-   left: 0;
-   border: none;
-   -webkit-transition: all 400ms ease, background 400ms ease;
-   transition:         all 400ms ease, background 400ms ease;
 }
 
 input[type="search"]:hover {
