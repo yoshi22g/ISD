@@ -497,9 +497,16 @@ span.post-date {
 
  }
 
+
+#home-slider .slick-list {
+   height: 470px;
+}
+
+
 #home-slider .wpsisac-slick-slider {
     width: 620px;
     margin: 0 auto;
+    height: 470px;
 }
 
 
@@ -521,13 +528,23 @@ span.post-date {
    background-color: #fff !important;
 }
 
-.wpsisac-slick-slider.design-3 .slick-dots {
+#home-slider .wpsisac-slick-slider.design-3 .slick-dots {
    left: auto !important;
    right: 19px;
    text-align: center;
    bottom: 13px !important
 }
 
+
+.wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-content {
+   left: 0px;
+   right: 0px;
+   text-align: left;
+   position: relative;
+   bottom: 7px;
+   width: 100%;
+   z-index: 40000
+}
 
 h2.slide-title {
    display: none;
