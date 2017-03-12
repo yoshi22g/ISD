@@ -529,6 +529,26 @@ span.post-date {
 }
 
 
+h2.slide-title {
+   display: none;
+}
+
+.wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-short-content p {
+   text-align: left;
+   color: black;
+   text-shadow: none;
+   font-size: 13px;
+   max-width: 100%;
+   margin: 0;
+}
+
+.wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-content .bg-overlay {
+   padding: 20px;
+   background: #fff;
+   color: #000;
+}
+
+
 /*--------------------------------------------------------------
 #### About
 --------------------------------------------------------------*/
