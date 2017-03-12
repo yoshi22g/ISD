@@ -114,13 +114,21 @@ function fix_svg() { echo ' .attachment-266x266, .thumbnail img { width: 100% !i
 
 /*** Jquery Search X Script ****/
 
+function my_idc_scripts() {
+    wp_enqueue_script( 'idc-scripts',get_stylesheet_directory_uri() . '/js/idc-scripts.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_idc_scripts' );
+
+/*
+
 function add_custom_script(){
 	?>
-		<script>
+		<script type="text/javascript">
 			jQuery(document).ready(function() {
 				//when search is clicked, show the X button
 				jQuery("input.search-field").click(function(){
 					jQuery("#search-x").removeClass("search-hide");
+					console.log('clicked search');
 				});
 				//when the X is clicked, hide both the X button and reset the focus of text area
 				jQuery("#search-x").click(function() {
@@ -135,5 +143,5 @@ function add_custom_script(){
 	<?php
 }
 add_action('wp_footer', 'add_custom_script');
-
+*/
 ?>
