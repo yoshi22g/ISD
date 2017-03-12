@@ -344,11 +344,11 @@ a#button-all-news:hover {
 
 
 .site-logo a.custom-logo-link {
-    width: 96px;
+    width: 44px;
     padding: 0;
-    height: 96px;
+    height: 44px;
     position: relative;
-    top: 4px;
+    top: 2px;
     left: -16px;
     display: block;
 }
@@ -356,7 +356,7 @@ a#button-all-news:hover {
 .custom-logo-link img {
    max-width: 100%;
    width: 3rem;
-   height: 3.5rem;
+   height: 3rem;
 }
 
 li.bop-nav-search {
