@@ -1072,7 +1072,7 @@ body#events, #events footer {
 # Search
 --------------------------------------------------------------*/
 form.bop-nav-search {
-   margin-top: 18px;
+   margin-top: 15px;
 }
 
 input[type="submit"] {
@@ -1100,6 +1100,7 @@ body#research input[type="search"], body#events input[type="search"] {
    background-image: url('images/search_white_sprite.svg');
    background-position: center top;
    background-repeat: no-repeat;
+   background-color: transparent;
    width: 16px;
    height: 16px;
    padding: 0;
@@ -1126,6 +1127,7 @@ body#research input[type="search"]:hover, body#events input[type="search"]:hover
    width: 16px;
    height: 16px;
    padding: 0;
+   background-color: transparent;
 }
 
 input[type="search"]:hover {
