@@ -509,6 +509,19 @@ span.post-date {
    height: auto;
  }
 
+#home-slider .wpsisac-slick-slider .slick-dots li button {
+   border-color: #fff !important;
+   width: 10px;
+   height: 10px;
+}
+
+#home-slider .wpsisac-slick-slider .slick-dots li.slick-active button {
+   border-color: #fff !important;
+   background-color: #fff !important;
+}
+
+
+
 /*--------------------------------------------------------------
 #### About
 --------------------------------------------------------------*/
