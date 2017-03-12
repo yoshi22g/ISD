@@ -22,7 +22,7 @@
 
 <?php 
 	$url = explode('/', $_SERVER['REQUEST_URI']);
-	$dir = $url[2] ? $url[2] : 'home';
+	$dir = $url[1] ? $url[1] : 'home';
 ?>
 
 
@@ -63,7 +63,7 @@
 						</div>
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="custom-logo-link">
-						<img class="custom-logo" src="<?php echo get_stylesheet_directory_uri() ?>/images/idc_pink_v5.svg"/>
+						<img class="custom-logo" src="<?php echo get_stylesheet_directory_uri() ?>/images/idc_pink_v6.svg"/>
 					</a>
 				</div>
 
