@@ -110,4 +110,30 @@ function cc_mime_types( $mimes ){ $mimes['svg'] = 'image/svg+xml'; return $mimes
 
 function fix_svg() { echo ' .attachment-266x266, .thumbnail img { width: 100% !important; height: auto !important; } '; } add_action( 'admin_head', 'fix_svg' );
 
+
+
+/*** Jquery Search X Script ****/
+
+function add_custom_script(){
+	?>
+		<script>
+			jQuery(document).ready(function() {
+				//when search is clicked, show the X button
+				jQuery("input.search-field").click(function(){
+					jQuery("#search-x").removeClass("search-hide");
+				});
+				//when the X is clicked, hide both the X button and reset the focus of text area
+				jQuery("#search-x").click(function() {
+					jQuery("input[type='search']").blur();
+					jQuery(this).addClass("search-hide");
+				});
+
+
+
+			}); 
+		</script>
+	<?php
+}
+add_action('wp_footer', 'add_custom_script');
+
 ?>

@@ -69,8 +69,12 @@
 
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'idc' ); ?></button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'nav-menu' ) ); ?>
+
+				<!-- Search Exit button -->
+				<img id="search-x" class="search-hide" src="<?php echo get_stylesheet_directory_uri() ?>/images/x-out.svg"/>
 			</nav><!-- #site-navigation -->
 		<?php endif; ?>
+
 
 	</header><!-- #masthead -->
 		<?php if ($dir == 'research'): ?>

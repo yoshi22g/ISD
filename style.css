@@ -132,7 +132,7 @@ span.post-date {
 
 p.xsmall-text,
 #contact .textwidget h4,
-#contact .textwidget p, .index-entry-meta p {
+#contact .textwidget p, .index-entry-meta p, .index-entry-meta a {
    font-size: 0.8125rem; /* Desktop 13px/20px */
    line-height: 1.25rem;
 }
@@ -369,6 +369,7 @@ li.bop-nav-search {
 /*--------------------------------------------------------------
 #### Layout
 --------------------------------------------------------------*/
+
 
 .entry-footer::before, .entry-footer::after {
    display: none;
@@ -1078,63 +1079,53 @@ input[type="submit"] {
    display: none;
 }
 
-input[type="search"] {
+input[type="search"],
+.error404 input[type="search"],
+.search-no-results input[type="search"] {
    -webkit-appearance: none;
-   border: 3px solid;
-   border-color: #fff;
-   border-radius: 0;
-   background: #fff;
-   color: rgba(0,0,0,0);
-   font-size: 0.75rem;
-   line-height: 1;
-   padding: .6em 1em .4em;
-   background-image: url('images/search_black.svg');
-   background-position: center right;
+   border: none;
+   background-image: url(images/search_sprite.svg);
+   background-position: center top;
    background-repeat: no-repeat;
-   width: 1rem;
+   width: 16px;
+   height: 16px;
+   padding: 0;
+   color: rgba(0,0,0,0);
+
 }
 
 body#research input[type="search"], body#events input[type="search"] {
-   border-color: #000;
-   background: #000;
-   background-image: url('images/search_white.svg');
-   background-position: center right;
-   background-repeat: no-repeat;
-   width: 1rem;
-   font-size: 0.75rem;
-   line-height: 1;
    -webkit-appearance: none;
+   border: none;
+   background-image: url('images/search_white_sprite.svg');
+   background-position: center top;
+   background-repeat: no-repeat;
+   width: 16px;
+   height: 16px;
+   padding: 0;
+   color: rgba(0,0,0,0);
 }
 
 input[type="search"]:hover {
    -webkit-appearance: none;
-   border: 3px solid;
-   border-color: #fff;
-   border-radius: 0;
-   background: #fff;
-   color: rgba(0,0,0,0);
-   font-size: 0.75rem;
-   line-height: 1;
-   padding: .6em 1em .4em;
-   background-image: url('images/search_pink.svg');
-   background-position: center right;
+   border: none;
+   background-image: url(images/search_sprite.svg);
+   background-position: center -24px;
    background-repeat: no-repeat;
-   width: 1rem;
+   width: 16px;
+   height: 16px;
+   padding: 0;
 }
 
 body#research input[type="search"]:hover, body#events input[type="search"]:hover {
    -webkit-appearance: none;
-   border: 3px solid;
-   border-color: #000;
-   border-radius: 0;
-   background: #000;
-   font-size: 0.75rem;
-   line-height: 1;
-   padding: .6em 1em .4em;
-   background-image: url('images/search_pink.svg');
-   background-position: center right;
+   border: none;
+   background-image: url('images/search_white_sprite.svg');
+   background-position: center -24px;
    background-repeat: no-repeat;
-   width: 1rem;
+   width: 16px;
+   height: 16px;
+   padding: 0;
 }
 
 input[type="search"]:hover {
@@ -1144,7 +1135,7 @@ input[type="search"]:hover {
 
 input[type="search"]:focus {
    position: fixed;
-   background-color: rgba(255,255,255,0.8);
+   background-color: rgba(255,255,255,0.95);
    cursor: text;
    outline: 0;
    width: 940px;
@@ -1154,7 +1145,7 @@ input[type="search"]:focus {
    right: 0;
    bottom: 0;
    padding: 400px;
-   z-index: 200;
+   z-index: 10000;
    color: #FF3250;
    font-size: 4.5rem; /* Desktop 72px/89px */
    line-height: 5.5625rem;
@@ -1165,6 +1156,10 @@ input[type="search"]:focus {
 }
 .search-form .search-submit {
    display:none;
+}
+
+.secondary-title::after {
+   display: none;
 }
 
 /**** Search Results ****/
@@ -1181,6 +1176,27 @@ body.search .page-header::after {
    display: none;
 }
 
+.index-entry-meta a {
+   font-weight: normal;
+}
+
+#search-x {
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 24px;
+   width: 16px;
+   height: 16px;
+   z-index: 11000;
+}
+
+#search-x:hover {
+   cursor: pointer;
+}
+
+#search-x.search-hide {
+   display: none;
+}
 
 /*--------------------------------------------------------------
 # Footer
