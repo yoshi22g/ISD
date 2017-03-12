@@ -344,19 +344,19 @@ a#button-all-news:hover {
 
 
 .site-logo a.custom-logo-link {
-    width: 88px;
+    width: 96px;
     padding: 0;
-    height: 88px;
+    height: 96px;
     position: relative;
-    top: -8px;
+    top: 4px;
     left: -16px;
     display: block;
 }
 
 .custom-logo-link img {
    max-width: 100%;
-   width: 4em;
-   height: 4em;
+   width: 3rem;
+   height: 3.5rem;
 }
 
 li.bop-nav-search {
