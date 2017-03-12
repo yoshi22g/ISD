@@ -132,7 +132,7 @@ span.post-date {
 
 p.xsmall-text,
 #contact .textwidget h4,
-#contact .textwidget p {
+#contact .textwidget p, .index-entry-meta p {
    font-size: 0.8125rem; /* Desktop 13px/20px */
    line-height: 1.25rem;
 }
@@ -239,6 +239,35 @@ a:active {
 
 .ow-button-base a.ow-button-hover.button:hover,
 .ow-button-base a:hover {
+   background: #00D2C8;
+   color: #FFFFFF !important;
+}
+
+a#button-all-news,
+a#button-all-news:visited,
+a#button-all-news:active {
+   -ms-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 1.125rem; /* Desktop 18px/26px */
+   line-height: 1.625rem;
+   padding: .5em 2em;
+   background: none;
+   border: 1px solid #00D2C8;
+   color: #00D2C8 !important;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   text-shadow: none;
+   width: 190px;
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+}
+
+
+a#button-all-news:hover {
    background: #00D2C8;
    color: #FFFFFF !important;
 }
@@ -769,11 +798,11 @@ article.category-news .entry-content p img {
    margin: 0 auto;
 }
 
-.meta-nav a {
+.meta-nav p {
    color: #9B9B9B;
 }
 
-.entry-footer span a, .index-entry-meta a {
+.entry-footer span a, .index-entry-meta p {
    font-weight: normal;
    color: #9B9B9B;
 }
@@ -814,7 +843,7 @@ li span.page-numbers.current {
    width: 1.5625rem;
    height: 1.6875rem;
    font-size: 1.125rem;
-   border-radius: 4px;
+   border-radius: 2px;
  }
 
  li a.next.page-numbers {
@@ -883,7 +912,7 @@ hr {
 # Events
 --------------------------------------------------------------*/
 
-#post-93 .entry-title {
+body#events .entry-title {
    display: none;
 }
 
@@ -926,6 +955,44 @@ body#events, #events footer {
    margin-right: -50vw;
 }
 
+#speakers .panel-grid-cell {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: start;
+   -ms-flex-align: start;
+           align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#speakers .panel-grid-cell > .widget {
+   width: 380px;
+   margin: 0 0 90px 0 !important;
+}
+
+#speakers.profile .textwidget p {
+   margin: 0;
+}
+
+#speakers.profile .textwidget h4 {
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
+
+#speakers.profile img {
+   background-color: white;
+   width: 180px;
+   height: 180px;
+   margin-bottom: 4px;
+}
+
+#speakers.profile img:hover {
+   background-color: #00D2C8;
+}
 
 /*--------------------------------------------------------------
 # Widgets

@@ -22,7 +22,7 @@
 
 <?php 
 	$url = explode('/', $_SERVER['REQUEST_URI']);
-	$dir = $url[1] ? $url[1] : 'home';
+	$dir = $url[2] ? $url[2] : 'home';
 ?>
 
 

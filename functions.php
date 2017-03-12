@@ -41,7 +41,7 @@ function popper_index_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	$posted_on = ('<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+	$posted_on = ('<p>' . $time_string . '</p>'
 	);
 
 	$byline = sprintf(
@@ -60,7 +60,7 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
-
+/* Allow a Sidebar widget to appear on 1 specific page */
 add_action( 'wp_loaded', 'wpse_76959_register_widget_area' );
 function wpse_76959_register_widget_area()
 {
