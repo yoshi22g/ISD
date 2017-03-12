@@ -497,6 +497,11 @@ span.post-date {
 
  }
 
+#home-slider .wpsisac-slick-slider {
+    width: 620px;
+    margin: 0 auto;
+}
+
 
  #home-slider .slide-wrap {
    width: 619px;
