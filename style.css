@@ -1159,6 +1159,7 @@ body#events input[type="search"]:focus {
    vertical-align: top;
    padding-bottom: 50vh;
    padding-top: 0;
+   background-image: none;
 
 }
 .search-form .search-submit {
