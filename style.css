@@ -1118,7 +1118,8 @@ input[type="search"]:hover {
    padding: 0;
 }
 
-body#research input[type="search"]:hover, body#events input[type="search"]:hover {
+body#research input[type="search"]:hover,
+body#events input[type="search"]:hover {
    -webkit-appearance: none;
    border: none;
    background-image: url('images/search_white_sprite.svg');
@@ -1135,7 +1136,9 @@ input[type="search"]:hover {
 }
 
 
-input[type="search"]:focus {
+input[type="search"]:focus,
+body#research input[type="search"]:focus,
+body#events input[type="search"]:focus {
    position: fixed;
    background-color: rgba(255,255,255,0.95);
    cursor: text;
