@@ -131,8 +131,8 @@ span.post-date {
 }
 
 p.xsmall-text,
-.contact .textwidget h4,
-.contact .textwidget p {
+#contact .textwidget h4,
+#contact .textwidget p {
    font-size: 0.8125rem; /* Desktop 13px/20px */
    line-height: 1.25rem;
 }
@@ -230,9 +230,9 @@ a:active {
    background: none;
    border: 1px solid #00D2C8;
    color: #00D2C8 !important;
-   -webkit-border-radius: 0.25em;
-   -moz-border-radius: 0.25em;
-   border-radius: 0.25em;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
    text-shadow: none;
 }
 
@@ -470,6 +470,10 @@ span.post-date {
 /*--------------------------------------------------------------
 #### About
 --------------------------------------------------------------*/
+#about #main.site-main {
+   margin-top: 20px;
+}
+
 
 .profile h3.widget-title {
    text-transform: uppercase;
@@ -571,8 +575,46 @@ span.post-date {
     margin-right: 0px;
     padding-left: 2px;
     width: auto;
-
  }
+
+#contact {
+   border: 1px solid rgba(155, 155, 155, 0.5);
+   border-radius: 2px;
+   height: 64px;
+   width: 82.97%;
+   box-sizing: border-box;
+   margin: 0 auto;
+}
+
+#contact .panel-grid-cell {
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+
+#contact .information > .widget {
+   width: 357px;
+   float: left;
+   text-align: left;
+   margin: 10px 0 10px 20px;
+}
+
+#contact .panel-grid-cell > .so-panel {
+   margin-bottom: 0;
+}
+
+#contact .textwidget h4 {
+   color: #9B9B9B;
+   font-size: 13px;
+   line-height: 20px;
+   text-transform: none;
+   text-align: left;
+   margin: 0;
+}
+
+#contact .textwidget p {
+   margin: 0;
+   max-width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Research
@@ -582,11 +624,14 @@ span.post-date {
    text-transform: none;
 }
 
-.research-slider-caption .textwidget p a, .research-slider-caption .textwidget p a:link, .research-slider-caption .textwidget p a:visited {
+.research-slider-caption .textwidget p a,
+.research-slider-caption .textwidget p a:link,
+.research-slider-caption .textwidget p a:visited {
    color: #00D2C8;
 }
 
-.research-slider-caption .textwidget p a:hover, .research-slider-caption .textwidget p a:focus {
+.research-slider-caption .textwidget p a:hover,
+.research-slider-caption .textwidget p a:focus {
    color: #FF3250;
 }
 
@@ -668,6 +713,29 @@ span.post-date {
     border-radius: 5px;
     border: 1px solid #000;
  }
+
+
+#faculty .panel-grid-cell, #researchers .panel-grid-cell {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: start;
+   -ms-flex-align: start;
+           align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+
+}
+
+#faculty .panel-grid-cell > .widget, #researchers .panel-grid-cell > .widget {
+   width: 220px;
+   margin: auto !important;
+}
+
 
 
 /*--------------------------------------------------------------
