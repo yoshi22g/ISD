@@ -511,6 +511,7 @@ span.post-date {
 
 #home-slider .wpsisac-slick-slider .slick-dots li button {
    border-color: #fff !important;
+   background-color: transparent;
    width: 10px;
    height: 10px;
 }
