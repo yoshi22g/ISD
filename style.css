@@ -348,8 +348,8 @@ a#button-all-news:hover {
     padding: 0;
     height: 44px;
     position: relative;
-    top: 2px;
-    left: -16px;
+    top: 8px;
+    left: -1px;
     display: block;
 }
 
