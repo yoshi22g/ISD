@@ -844,7 +844,7 @@ h2.slide-title {
 }
 
 #research .wpsisac-slick-slider {
-       width: 100vw;
+    width: 100vw;
     margin: 0;
     height: 673px;
     position: absolute;
@@ -858,7 +858,7 @@ h2.slide-title {
 
     width: 100%;
     margin: 0 auto;
-    height: 673px !important
+    height: 56vw !important;
 }
 
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
