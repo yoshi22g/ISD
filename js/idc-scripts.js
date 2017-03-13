@@ -38,7 +38,7 @@ jQuery(document).ready(function( $ ) {
    var captionContent = function() {
 
    //see how many slides there are
-      var slideNum = $('#research .slick-slide').length();
+      var slideNum = $('#research .slick-slide').length;
 
    //capture all content in a array
       var slideTitle = $('#research .slick-active .slide-title').text();
