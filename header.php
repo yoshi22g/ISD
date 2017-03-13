@@ -77,8 +77,6 @@
 
 
 	</header><!-- #masthead -->
-		<?php if ($dir == 'research'): ?>
-			<?php echo do_shortcode('[supsystic-slider id=3 position="center"]'); ?>
-		<?php endif; ?>
+
 
 	<div id="content" class="site-content">
