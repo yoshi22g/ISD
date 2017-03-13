@@ -77,6 +77,8 @@
 
 
 	</header><!-- #masthead -->
-
+		<?php if ($dir == 'research'): ?>
+			<?php echo do_shortcode('[slick-slider category="5" design="design-3" arrows="false" sliderheight="419"]'); ?>
+		<?php endif; ?>
 
 	<div id="content" class="site-content">
