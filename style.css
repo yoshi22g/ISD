@@ -764,7 +764,8 @@ h2.slide-title {
 
 #research .site-header,
 #research .main-navigation {
-   color: transparent;
+   color: #fff;
+   background-color: transparent;
  }
 
 #research .main-navigation a {
