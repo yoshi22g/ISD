@@ -863,6 +863,15 @@ h2.slide-title {
     height: 56vw !important;
 }
 
+#reserach .wpsisac-slick-slider.design-3 .slick-dots {
+   left: 15px !important;
+   right: 15px;
+   text-align: center;
+   bottom: 8px !important;
+}
+
+
+
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
    display: -webkit-box;
    display: -ms-flexbox;
