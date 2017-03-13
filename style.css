@@ -561,7 +561,7 @@ h2.slide-title {
 }
 
 .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-content .bg-overlay {
-   padding: 20px;
+   padding: 0;
    background: #fff;
    color: #000;
 }
