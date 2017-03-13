@@ -51,10 +51,14 @@ jQuery(document).ready(function( $ ) {
       $('.research-caption-link').attr("href", slideLink).text(slideLink);
       console.log(slideTitle + ' ' + slideContent + ' ' + slideLink);
    };
-
+   /*
    window.setInterval(function(){
       captionContent();
-   }, 1000);
+   }, 1000);*/
+   $('.research-caption-title').on('afterChange', function(){
+      captionContent();
+      console.log(nextSlide);
+   });
 
 
 });
