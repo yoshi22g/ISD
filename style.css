@@ -498,25 +498,25 @@ span.post-date {
  }
 
 
-#home-slider .slick-list {
+.slick-list {
    height: 470px;
 }
 
 
-#home-slider .wpsisac-slick-slider {
+.wpsisac-slick-slider {
     width: 620px;
     margin: 0 auto;
     height: 470px;
 }
 
 
- #home-slider .slide-wrap {
+ .slide-wrap {
    width: 619px;
    margin: 0 auto;
    height: 470px !important;
  }
 
-#home-slider .wpsisac-slick-slider .slick-dots li button {
+.wpsisac-slick-slider .slick-dots li button {
    border-color: #fff !important;
    background-color: transparent !important;
    width: 10px !important;
@@ -524,12 +524,12 @@ span.post-date {
    margin-left: 4px !important;
 }
 
-#home-slider .wpsisac-slick-slider .slick-dots li.slick-active button {
+.wpsisac-slick-slider .slick-dots li.slick-active button {
    border-color: #fff !important;
    background-color: #fff !important;
 }
 
-#home-slider .wpsisac-slick-slider.design-3 .slick-dots {
+.wpsisac-slick-slider.design-3 .slick-dots {
    left: auto !important;
    right: 19px;
    text-align: center;
@@ -568,7 +568,7 @@ h2.slide-title {
    color: #000;
 }
 
-#home-slider .wpsisac-slick-slider .readmore {
+.wpsisac-slick-slider .readmore {
     position: absolute;
     background: #fff url(images/chevron_right_black.svg) no-repeat;
     color: #000;
@@ -576,7 +576,7 @@ h2.slide-title {
     background-position: 15px 10px;
 }
 
-#home-slider .slide-wrap .readmore a.slider-readmore {
+.slide-wrap .readmore a.slider-readmore {
     padding: 0;
     background: transparent;
     color: rgba(0, 0, 0, 0);
