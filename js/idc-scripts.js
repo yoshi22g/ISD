@@ -46,9 +46,9 @@ jQuery(document).ready(function( $ ) {
       var slideLink = $('#research .slick-active .readmore a').attr("href");
 
    //when the slide is active (slick current class applied), show the corresponding content
-      $('.research-title').text(slideTitle);
-      $('.research-content').html(slideContent);
-      $('.research-link').attr("href", slideLink);
+      $('.research-caption-title').text(slideTitle);
+      $('.research-caption-content').html(slideContent);
+      $('.research-caption-link').attr("href", slideLink);
       console.log(slideTitle + ' ' + slideContent + ' ' + slideLink);
    };
 
