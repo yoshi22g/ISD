@@ -31,6 +31,14 @@ jQuery(document).ready(function( $ ) {
       $($slideImage).duotone('process');
     });
 
+/**** Research Slider Captions ***/
+
+//move the elements to inside slider
+   $('.research-caption').appendTo('#research .slick-slider');
+
+//capture all content in an array
+
+//when the slide is active (slick current class applied), show the corresponding content
 
 
 });
