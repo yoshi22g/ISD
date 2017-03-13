@@ -42,12 +42,12 @@ jQuery(document).ready(function( $ ) {
 
    //capture all content in a array
       var slideTitle = $('#research .slick-active .slide-title').text();
-      var slideContent = $('#research .slick-active .slider-short-content').html();
+      var slideContent = $('#research .slick-active .slider-short-content').text();
       var slideLink = $('#research .slick-active .readmore a').attr("href");
 
    //when the slide is active (slick current class applied), show the corresponding content
       $('.research-caption-title').text(slideTitle);
-      $('.research-caption-content').replaceWith(slideContent);
+      $('.research-caption-content').text(slideContent);
       $('.research-caption-link').attr("href", slideLink).text(slideLink);
       console.log(slideTitle + ' ' + slideContent + ' ' + slideLink);
    };
