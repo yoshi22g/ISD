@@ -760,7 +760,14 @@ span.post-date {
 }
 
 
+.research-caption-title, .research-caption-text, .research-caption-link {
+   font-size: 1.125rem; /* Desktop 18px/20px */
+   line-height: 1.25rem;
+}
 
+a.research-caption-link {
+   color: #00D2C8;
+}
 
 
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
