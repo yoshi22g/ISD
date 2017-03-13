@@ -838,7 +838,11 @@ h2.slide-title {
  }
 
 
-/**** Full With Slider *****/
+/**** Full Width Slider *****/
+#research .slick-list {
+   height: 56vw;
+}
+
 #research .wpsisac-slick-slider {
        width: 100vw;
     margin: 0;
