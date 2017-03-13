@@ -845,14 +845,14 @@ h2.slide-title {
 }
 
 #research .wpsisac-slick-slider {
-    width: 100vw;
-    margin: 0;
-    height: 673px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -10;
+   width: 100vw;
+   margin: 0;
+   height: 56vw;
+   position: relative;
+   top: -65px;
+   left: 0;
+   right: 0;
+   z-index: -10;
 
 }
 
