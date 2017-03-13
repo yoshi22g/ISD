@@ -567,15 +567,16 @@ h2.slide-title {
 }
 
 #home-slider .wpsisac-slick-slider .readmore {
-   position: absolute;
-   background: #fff url(images/chevron_right_black.svg);
-   color: #000;
-   top: -40px;
+    position: absolute;
+    background: #fff url(images/chevron_right_black.svg) no-repeat;
+    color: #000;
+    top: -40px;
+    background-position: 15px 10px;
 }
 
 #home-slider .slide-wrap .readmore a.slider-readmore {
     padding: 0;
-    background: #fff;
+    background: transparent;
     color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     text-transform: uppercase;
