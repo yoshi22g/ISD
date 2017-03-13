@@ -83,7 +83,7 @@
 				<img id="link-arrow" src="<?php echo get_stylesheet_directory_uri() ?>/images/chevron_right_black.svg">
 				<h3 class="research-caption-title"> Research Title </h3>
 				<p class="research-caption-text">Research caption</p>
-				<a href="" class="research-link">research link</a>
+				<a href="" class="research-caption-link">research link</a>
 			</div>
 		<?php endif; ?>
 
