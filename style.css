@@ -839,7 +839,18 @@ h2.slide-title {
 
 
 /**** Full With Slider *****/
-.slide-wrap {
+#research .wpsisac-slick-slider {
+       width: 100vw;
+    margin: 0;
+    height: 673px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#research .slide-wrap {
 
     width: 100%;
     margin: 0 auto;
