@@ -835,7 +835,17 @@ span.post-date {
    bottom: 8px !important;
 }
 
+#research .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-content {
+   display: none;
+}
 
+#research h2.slide-title {
+   display: none;
+}
+
+#research .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-short-content p {
+   display: none;
+}
 
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
    display: -webkit-box;
