@@ -544,6 +544,7 @@ span.post-date {
    bottom: 7px;
    width: 100%;
    z-index: 40000
+   padding: 0;
 }
 
 h2.slide-title {
