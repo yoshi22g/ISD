@@ -770,6 +770,16 @@ a.research-caption-link {
 }
 
 
+.reasearch-caption {
+   position: absolute;
+   bottom: 0;
+   background-color: #fff;
+   width: 618px;
+   left: 50%;
+   margin-left: calc(-618px*.5);
+   padding: 20px 20px 0 20px;
+}
+
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
    display: -webkit-box;
    display: -ms-flexbox;
