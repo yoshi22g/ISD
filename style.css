@@ -838,6 +838,14 @@ h2.slide-title {
  }
 
 
+/**** Full With Slider *****/
+.slide-wrap {
+
+    width: 100%;
+    margin: 0 auto;
+    height: 673px !important
+}
+
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -858,6 +866,8 @@ h2.slide-title {
    width: 220px;
    margin: auto !important;
 }
+
+
 
 
 
