@@ -23,11 +23,12 @@ jQuery(document).ready(function( $ ) {
    });
 
    $($slideImage).mouseenter(function(e) {
-      $(this).duotone('reset');
+      $($slideImage).duotone('reset');
+
     });
 
    $($slideImage).mouseleave(function(e) {
-      $(this).duotone({gradientMap:'#FF3250, #FFFFFF'}).duotone('process');
+      $($slideImage).duotone({gradientMap:'#FF3250, #FFFFFF'}).duotone('process');
     });
 
 
