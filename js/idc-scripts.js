@@ -49,6 +49,7 @@ jQuery(document).ready(function( $ ) {
       $('.research-title').text(slideTitle);
       $('.research-content').html(slideContent);
       $('.research-link').attr("href", slideLink);
+      console.log(slideTitle + ' ' + slideContent + ' ' + slideLink);
    };
 
    window.setInterval(function(){
