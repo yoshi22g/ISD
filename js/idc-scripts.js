@@ -29,7 +29,7 @@ jQuery(document).ready(function( $ ) {
 
    $($slideImage).mouseleave(function(e) {
       $($slideImage).duotone('process');
-    });*/
+    });
 
 
 
