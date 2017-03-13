@@ -21,14 +21,14 @@ jQuery(document).ready(function( $ ) {
    $($slideImage).attr("srcset",'');
    $($slideImage).duotone({gradientMap: '#FF3250, #FFFFFF'});
 
-   /*$($slideImage).mouseenter(function(e) {
+   ($slideImage).mouseenter(function(e) {
       console.log('mouse enter slide image');
       $($slideImage).duotone('reset');
 
     });
 
    $($slideImage).mouseleave(function(e) {
-      $($slideImage).duotone({gradientMap:'#FF3250, #FFFFFF'}).duotone('process');
+      $($slideImage).duotone('process');
     });*/
 
 
