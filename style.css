@@ -513,7 +513,7 @@ span.post-date {
  #home-slider .slide-wrap {
    width: 619px;
    margin: 0 auto;
-   height: 470px;
+   height: 470px !important;
  }
 
 #home-slider .wpsisac-slick-slider .slick-dots li button {
