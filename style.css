@@ -755,13 +755,13 @@ span.post-date {
 
 /**** Full Width Slider *****/
 #research .slick-list {
-   height: 56vw;
+   height: 48vw;
 }
 
 #research .wpsisac-slick-slider {
    width: 100vw;
    margin: 0;
-   height: 56vw;
+   height: 48vw;
    position: relative;
    top: -65px;
    left: 0;
@@ -774,7 +774,7 @@ span.post-date {
 
     width: 100%;
     margin: 0 auto;
-    height: 56vw !important;
+    height: 48vw !important;
 }
 
 #reserach .wpsisac-slick-slider.design-3 .slick-dots {
@@ -801,6 +801,7 @@ span.post-date {
    background-color: transparent !important;
    width: 10px !important;
    height: 10px !important;
+   margin-left: 10px;
 }
 
 #research .wpsisac-slick-slider .slick-dots li.slick-active button {
@@ -813,6 +814,10 @@ span.post-date {
    right: 19px !important;
    text-align: center;
    bottom: -48px !important;
+}
+
+#research .wpsisac-slick-slider .slick-dots li {
+   margin: 0 5px !important;
 }
 
 
