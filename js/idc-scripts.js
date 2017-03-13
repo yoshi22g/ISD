@@ -18,11 +18,10 @@ jQuery(document).ready(function( $ ) {
 //// Jquery Image Duotone ////
    var $slideImage = '.slick-image-slide img';
 
-   $($slideImage).duotone({
-      gradientMap: '#FF3250, #FFFFFF'
-   });
+   $($slideImage).duotone({gradientMap: '#FF3250, #FFFFFF'});
 
    $($slideImage).mouseenter(function(e) {
+      console.log('mouse enter slide image');
       $($slideImage).duotone('reset');
 
     });
