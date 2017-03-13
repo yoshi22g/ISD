@@ -521,6 +521,7 @@ span.post-date {
    background-color: transparent !important;
    width: 10px !important;
    height: 10px !important;
+   margin-left: 4px !important;
 }
 
 #home-slider .wpsisac-slick-slider .slick-dots li.slick-active button {
@@ -555,7 +556,8 @@ h2.slide-title {
    text-align: left;
    color: black;
    text-shadow: none;
-   font-size: 13px;
+   font-size: 0.875rem;
+   line-height: 1.125rem;
    max-width: 100%;
    margin: 0;
 }
