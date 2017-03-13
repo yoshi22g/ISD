@@ -752,57 +752,6 @@ span.post-date {
    display: none;
 }
 
-#research #supsystic-slider-3 .bx-wrapper .bx-controls-direction a {
-   display: none;
-}
-
-#research #research-slider #supsystic-slider-3 .bx-wrapper {
-    width: 100vw;
-    max-width: 100vw !important;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
- }
-
-/* #supsystic-slider-3 .bx-viewport {
-   height: 60vw !important;
- }*/
-
-#research #supsystic-slider-3 .bx-wrapper .bx-viewport li {
-   top: 0;
-   background-position: center center;
-}
-
-#research .bx-caption {
-    width: 620px   !important;
-    position: absolute;
-    left: 50% !important;
-    margin-left: -310px;
-    padding: 20px !important;
-    line-height: 26px;
- }
-
-#research #supsystic-slider-3 .bx-wrapper .bx-pager.bx-default-pager a:hover,
-#research #supsystic-slider-3 .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #000;
-}
-
-#research #supsystic-slider-3 .bx-wrapper .bx-pager.bx-default-pager a {
-    background: transparent;
-    text-indent: -9999px;
-    display: block;
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    outline: 0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #000;
- }
-
 
 /**** Full Width Slider *****/
 #research .slick-list {
@@ -846,6 +795,29 @@ span.post-date {
 #research .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-short-content p {
    display: none;
 }
+
+#research .wpsisac-slick-slider .slick-dots li button {
+   border-color: #000 !important;
+   background-color: transparent !important;
+   width: 10px !important;
+   height: 10px !important;
+}
+
+#research .wpsisac-slick-slider .slick-dots li.slick-active button {
+   border-color: #000 !important;
+   background-color: #000 !important;
+}
+
+#research .wpsisac-slick-slider.design-3 .slick-dots {
+   left: 15px !important;
+   right: 19px !important;
+   text-align: center;
+   bottom: -48px !important;
+}
+
+
+
+
 
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
    display: -webkit-box;
