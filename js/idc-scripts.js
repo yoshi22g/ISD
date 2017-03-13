@@ -47,8 +47,8 @@ jQuery(document).ready(function( $ ) {
 
    //when the slide is active (slick current class applied), show the corresponding content
       $('.research-caption-title').text(slideTitle);
-      $('.research-caption-content').html(slideContent);
-      $('.research-caption-link').attr("href", slideLink);
+      $('.research-caption-content').replaceWith(slideContent);
+      $('.research-caption-link').attr("href", slideLink).text(slideLink);
       console.log(slideTitle + ' ' + slideContent + ' ' + slideLink);
    };
 
