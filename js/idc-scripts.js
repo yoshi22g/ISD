@@ -32,13 +32,28 @@ jQuery(document).ready(function( $ ) {
     });
 
 /**** Research Slider Captions ***/
-
-//move the elements to inside slider
+   //move the elements to inside slider
    $('.research-caption').appendTo('#research .slick-slider');
 
-//capture all content in an array
+   var captionContent = function() {
 
-//when the slide is active (slick current class applied), show the corresponding content
+   //see how many slides there are
+      var slideNum = $('#research .slick-slide').length();
+
+   //capture all content in a array
+      var slideTitle = $('#research .slick-active .slide-title').text();
+      var slideContent = $('#research .slick-active .slider-short-content').html();
+      var slideLink = $('#research .slick-active .readmore a').attr("href");
+
+   //when the slide is active (slick current class applied), show the corresponding content
+      $('.research-title').text(slideTitle);
+      $('.research-content').html(slideContent);
+      $('.research-link').attr("href", slideLink);
+   };
+
+   window.setInterval(function(){
+      captionContent();
+   }, 1000);
 
 
 });
