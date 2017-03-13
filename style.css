@@ -670,7 +670,7 @@ span.post-date {
 #research .main-navigation {
    color: #fff;
    background-color: transparent;
-   z-index: 20;
+   z-index: 10;
 
  }
 
@@ -707,7 +707,7 @@ span.post-date {
    top: -65px;
    left: 0;
    right: 0;
-   z-index: -10;
+   z-index: 0;
 
 }
 
