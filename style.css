@@ -670,6 +670,8 @@ span.post-date {
 #research .main-navigation {
    color: #fff;
    background-color: transparent;
+   z-index: 20;
+
  }
 
 #research .main-navigation a {
@@ -778,6 +780,7 @@ a.research-caption-link {
    left: 50%;
    margin-left: calc(-618px*.5);
    padding: 20px 20px 0 20px;
+   z-index: 30;
 }
 
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
