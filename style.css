@@ -592,7 +592,7 @@ span.post-date {
     height: 38px;
 }
 
-#about .wpsisac-slick-slider .readmore {
+#about-slider .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-content, #about-slider .wpsisac-slick-slider .readmore {
    display: none;
 }
 
