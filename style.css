@@ -1294,6 +1294,11 @@ body.search .page-header::after {
     width: 100%;
  }
 
+.search-no-results .site-footer {
+   position: absolute;
+   bottom: 59px;
+}
+
 nav.site-info {
    margin: 0 auto;
    width: 58.75rem;
