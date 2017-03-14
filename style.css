@@ -980,8 +980,8 @@ li span.page-numbers.current {
 
 
 .classes-hosted p {
-   margin-bottom: 1rem;
-   margin-top: 1rem;
+   margin-bottom: .75rem;
+   margin-top: .75rem;
 }
 
 hr {
@@ -1009,6 +1009,14 @@ body#events .entry-title {
 body#events, #events footer {
    background-color: #000000;
    color: #ffffff;
+}
+
+#events .textwidget h4 {
+   font-size: 1.5rem; /* Desktop 24px/29px */
+   line-height: 1.8125rem;
+   text-transform: uppercase;
+   letter-spacing: 0.0315rem;
+   text-align: center;
 }
 
 #events .site-header, #events .main-navigation, #events .widget, #events .site-main, #events .entry-content, #events table, #events td {
