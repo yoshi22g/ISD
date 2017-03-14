@@ -45,7 +45,7 @@
 	</div><!-- .page-content -->
 
 	<?php
-    if ( is_404() || is_search() ) {
+    if ( is_404() ) {
     ?>
 		<h1 class="page-title secondary-title"><?php esc_html_e( 'Most recent posts:', 'idc' ); ?></h1>
 		<?php
