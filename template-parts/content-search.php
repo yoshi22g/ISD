@@ -29,11 +29,8 @@ $first_post = $wp_query->current_post == 0 && !is_paged() && is_home();
 		the_title( sprintf( '<h2 class="entry-title index-excerpt"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			echo '<div class="index-entry-meta">';
 			?>
-			<a href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark">
-					<?php echo esc_url( get_permalink() ); ?>
-				</a>
 			<!--popper_index_posted_on();-->
-		</div><!-- .entry-meta -->
+		
 	</header><!-- .entry-header -->
 
 
