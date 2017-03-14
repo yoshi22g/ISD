@@ -1076,6 +1076,8 @@ body#events, #events footer {
    margin: 0 auto;
 }
 
+.slick-slide, .slick-slide *{ outline: none !important; }
+
 /*@media screen and (min-width: 45em) {
    #secondary {
       display: flex;
