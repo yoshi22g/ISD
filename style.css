@@ -963,9 +963,15 @@ li span.page-numbers.current {
 ## Learning & Making
 --------------------------------------------------------------*/
 
-#post-29 h1.entry-title {
+#learn-making h1.entry-title {
    display: none;
 }
+
+#learning-making main#main.site-main {
+   margin-top: 0;
+}
+
+
 
 #learning-making h2, #learning-making h4 {
    text-align: center;
