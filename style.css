@@ -111,8 +111,9 @@ h4,
 h5 {
    font-size: 1.5rem; /* Desktop 24px/29px */
    line-height: 1.8125rem;
-   letter-spacing: 0.0075rem;
 }
+
+
 
 p,
 .widget ul li a, td, body.search h1.page-title {
@@ -550,6 +551,10 @@ img[title="International Lockup"] {
 /*--------------------------------------------------------------
 #### About
 --------------------------------------------------------------*/
+#news h3.entry-title {
+   margin-top: 40px;
+}
+
 #about #main.site-main {
    margin-top: 20px;
 }
