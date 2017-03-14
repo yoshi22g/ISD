@@ -1078,11 +1078,11 @@ body#events, #events footer {
 --------------------------------------------------------------*/
 
 .#partners h3.widget-title {
-   font-size: 1.5rem; /* Desktop 24px/29px */
-   line-height: 1.8125rem;
-   text-transform: uppercase;
-   letter-spacing: 0.0315rem;
-   text-align: center;
+   font-size: 1.5rem !important; /* Desktop 24px/29px */
+   line-height: 1.8125rem !important;
+   text-transform: uppercase !important;
+   letter-spacing: 0.0315rem !important;
+   text-align: center !important;
 }
 
 
