@@ -1072,6 +1072,35 @@ body#events, #events footer {
    background-color: #00D2C8;
 }
 
+
+/*--------------------------------------------------------------
+# Partnerships
+--------------------------------------------------------------*/
+
+#partners .textwidget a {
+   -webkit-transform: scale(.5);
+    transform: scale(.5);
+    display: block;
+    margin: auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
+
+#partners .textwidget {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+}
+
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
