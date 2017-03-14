@@ -1083,6 +1083,8 @@ body#events, #events footer {
    text-transform: uppercase !important;
    letter-spacing: 0.0315rem !important;
    text-align: center !important;
+   margin: 40px 0 60px 0;
+
 }
 
 
