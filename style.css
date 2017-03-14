@@ -1014,9 +1014,12 @@ body#events, #events footer {
 #events .textwidget h4 {
    font-size: 1.5rem; /* Desktop 24px/29px */
    line-height: 1.8125rem;
-   text-transform: uppercase;
-   letter-spacing: 0.0315rem;
    text-align: center;
+   letter-spacing: 0.0315rem;
+   margin-top: 3.25rem;
+   margin-bottom: 3.25rem;
+
+
 }
 
 #events .site-header, #events .main-navigation, #events .widget, #events .site-main, #events .entry-content, #events table, #events td {
