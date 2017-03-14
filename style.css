@@ -1092,6 +1092,10 @@ body#events, #events footer {
     margin: auto;
 }
 
+Epartners. textwidget a:hover {
+   opacity: 0.7;
+}
+
 
 /*--------------------------------------------------------------
 # Widgets
