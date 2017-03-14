@@ -1093,14 +1093,18 @@ body#events, #events footer {
    display: -ms-flexbox;
    display: flex;
    width: 780px;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
    justify-content: space-between;
-   align-items: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+           align-items: center;
    margin: 0 auto;
 }
 
 #partners .textwidget a {
-   -webkit-transform: scale(.5);
-    transform: scale(.5);
+   -webkit-transform: scale(.75);
+    transform: scale(.75);
     display: block;
     margin: auto;
 }
