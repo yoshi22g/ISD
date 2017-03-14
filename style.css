@@ -406,6 +406,11 @@ span.post-date {
    color: #9B9B9B;
 }
 
+img[title="International Lockup"] {
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
 
 @media screen and (min-width: 40em) {
    #home-text .col {
