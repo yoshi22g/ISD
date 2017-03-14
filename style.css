@@ -586,6 +586,10 @@ img[title="International Lockup"] {
    background: #fff;
 }
 
+#about .panel-grid {
+   margin-bottom: 0!important;
+}
+
 #leadership .panel-grid-cell, #staff .panel-grid-cell {
    display: -webkit-box;
    display: -ms-flexbox;
