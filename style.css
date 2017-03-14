@@ -1077,7 +1077,7 @@ body#events, #events footer {
 # Partnerships
 --------------------------------------------------------------*/
 
-.#partners h3.widget-title {
+.#partners > .panel-grid-cell .widget h3.widget-title {
    font-size: 1.5rem !important; /* Desktop 24px/29px */
    line-height: 1.8125rem !important;
    text-transform: uppercase !important;
