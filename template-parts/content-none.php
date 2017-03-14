@@ -11,7 +11,7 @@
 
 <section class="<?php if ( is_404() ) { echo 'error-404'; } else { echo 'no-results'; } ?> not-found">
 	<header class="page-header">
-		<h1 class="page-title">
+		<h2 class="page-title">
 			<?php
 			if ( is_404() ) { esc_html_e( 'Page not available', 'idc' );
 			} else if ( is_search() ) {
@@ -21,7 +21,7 @@
 				esc_html_e( 'Nothing Found', 'idc' );
 			}
 			?>
-		</h1>
+		</h2>
 	</header><!-- .page-header -->
 
 	<div class="page-content">
