@@ -1018,8 +1018,7 @@ body#events, #events footer {
    letter-spacing: 0.0315rem;
    margin-top: 3.25rem;
    margin-bottom: 3.25rem;
-
-
+   text-transform: uppercase;
 }
 
 #events .site-header, #events .main-navigation, #events .widget, #events .site-main, #events .entry-content, #events table, #events td {
