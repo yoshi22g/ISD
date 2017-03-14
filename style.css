@@ -102,7 +102,7 @@ h3.entry-title a {
 }
 
 h4,
-.sponsors h3.widget-title {
+.#partners h3.widget-title {
    font-size: 1.5rem; /* Desktop 24px/29px */
    line-height: 1.8125rem;
    text-transform: uppercase;
@@ -1076,6 +1076,11 @@ body#events, #events footer {
 /*--------------------------------------------------------------
 # Partnerships
 --------------------------------------------------------------*/
+
+#partners .textwidget .widget-title {
+   font-size:
+}
+
 
 #partners .textwidget {
    display: -webkit-box;
