@@ -572,7 +572,10 @@ img[title="International Lockup"] {
 
 .entry-content .profile p {
    max-width: 100%;
+}
 
+.entry-content p {
+   margin-top: 40px;
 }
 
 .profile .textwidget p {
