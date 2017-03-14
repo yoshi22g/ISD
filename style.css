@@ -1284,6 +1284,10 @@ body.search .page-header::after {
    display: none;
 }
 
+.search-no-results .site-main {
+   margin: 10em auto;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
