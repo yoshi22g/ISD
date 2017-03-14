@@ -1077,8 +1077,12 @@ body#events, #events footer {
 # Partnerships
 --------------------------------------------------------------*/
 
-#partners .textwidget .widget-title {
-   font-size:
+.#partners h3.widget-title {
+   font-size: 1.5rem; /* Desktop 24px/29px */
+   line-height: 1.8125rem;
+   text-transform: uppercase;
+   letter-spacing: 0.0315rem;
+   text-align: center;
 }
 
 
@@ -1087,7 +1091,9 @@ body#events, #events footer {
    display: -ms-flexbox;
    display: flex;
    width: 780px;
-   justify-content: center;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
 }
 
 #partners .textwidget a {
@@ -1097,7 +1103,7 @@ body#events, #events footer {
     margin: auto;
 }
 
-Epartners. textwidget a:hover {
+#partners .textwidget a:hover {
    opacity: 0.7;
 }
 
