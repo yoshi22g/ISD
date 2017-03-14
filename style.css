@@ -1077,6 +1077,14 @@ body#events, #events footer {
 # Partnerships
 --------------------------------------------------------------*/
 
+#partners .textwidget {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   width: 780px;
+   justify-content: center;
+}
+
 #partners .textwidget a {
    -webkit-transform: scale(.5);
     transform: scale(.5);
@@ -1084,13 +1092,6 @@ body#events, #events footer {
     margin: auto;
 }
 
-#partners .textwidget {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   height: 60px;
-   width: 780px;
-}
 
 /*--------------------------------------------------------------
 # Widgets
