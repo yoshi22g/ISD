@@ -91,6 +91,7 @@ h2.page-title {
    font-size: 4.5rem; /* Desktop 72px/89px */
    line-height: 5.5625rem;
    text-align: center;
+   font-style: normal;
 }
 
 h3,
