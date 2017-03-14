@@ -554,6 +554,11 @@ img[title="International Lockup"] {
    margin-top: 20px;
 }
 
+#about .textwidget h4 {
+   margin-top: 0px;
+   margin-bottom: 45px;
+}
+
 
 .profile h3.widget-title {
    text-transform: uppercase;
