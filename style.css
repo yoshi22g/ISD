@@ -564,6 +564,8 @@ img[title="International Lockup"] {
 #about .textwidget h4 {
    margin-top: 0px;
    margin-bottom: 45px;
+   text-transform: uppercase;
+   letter-spacing: 0.0318rem;
 }
 
 
