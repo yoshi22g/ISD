@@ -829,6 +829,19 @@ img[title="International Lockup"] {
 .research-caption-title, .research-caption-text, .research-caption-link {
    font-size: 1.125rem; /* Desktop 18px/20px */
    line-height: 1.25rem;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+
+.research-caption-title {
+    margin-top: 0;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#link-arrow {
+   width: 10px;
+   display: inline-block;
 }
 
 a.research-caption-link {
