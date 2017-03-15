@@ -577,7 +577,7 @@ img[title="International Lockup"] {
    text-align: center;
    margin: 0;
    position: relative;
-   top: calc(160px + 1.25rem + 75px);
+   top: calc(160px + 1.25rem + 58px));
 }
 
 .entry-content .profile p {
@@ -626,7 +626,7 @@ img[title="International Lockup"] {
 
 #leadership .panel-grid-cell > .widget {
    width: 220px;
-   margin: auto !important;
+   margin: 0 auto !important;
 }
 
 #staff .panel-grid-cell > .widget {
