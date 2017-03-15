@@ -842,6 +842,7 @@ img[title="International Lockup"] {
 #link-arrow {
    width: 10px;
    display: inline-block;
+   transform: rotate(90deg) translateX(3px);
 }
 
 a.research-caption-link {
