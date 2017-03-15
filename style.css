@@ -840,7 +840,7 @@ a.research-caption-link {
 
 #faculty .panel-grid-cell > .widget, #researchers .panel-grid-cell > .widget {
    width: 220px;
-   margin: auto !important;
+   margin: 0 auto !important;
 }
 
 
