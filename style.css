@@ -903,9 +903,10 @@ article.category-news .entry-content p img {
    margin: 0 auto;
 }
 
-article.category-news .entry-content ul {
+article.category-news .entry-content ul,
+article.category-news .entry-content ol {
    max-width: 83%;
-   margin: 0 auto;
+   margin: 0 auto 2rem auto;
    padding: 0;
 }
 
