@@ -147,6 +147,24 @@ li.nav-text,
    /*letter-spacing: 0.05rem*/
 }
 
+dfn, cite, em, i {
+   font-style: normal;
+   border-bottom: 1px solid #000;
+ }
+
+b, strong {
+   font-weight: normal;
+   border-bottom: 4px double #000;
+}
+
+blockquote:before, blockquote:after {
+   display: none;
+}
+
+blockquote * {
+   border-left: 4px solid #ff3250;
+}
+
 @media screen and (min-width: 40em) {
 
    .entry-title {
@@ -214,6 +232,12 @@ a:active {
 
 .entry-footer span a:hover, .index-entry-meta a:hover {
    color: #ff3250;
+}
+
+.category-news .entry-content a,
+.category-news .entry-content a:link,
+.category-news .entry-content a:visited {
+   color: #FF3250;
 }
 
 /*** Buttons ***/
