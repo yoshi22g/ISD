@@ -1112,7 +1112,7 @@ body#events, #events footer {
    margin-top: 6px;
    margin-bottom: 6px;
    text-transform: none;
-   letter-spacing: none;
+   letter-spacing: 0;
 }
 
 #speakers.profile img {
