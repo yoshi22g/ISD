@@ -903,6 +903,12 @@ article.category-news .entry-content p img {
    margin: 0 auto;
 }
 
+article.category-news .entry-content ul {
+   max-width: 83%;
+   margin: 0 auto;
+   padding: 0;
+}
+
 .meta-nav p {
    color: #9B9B9B;
 }
