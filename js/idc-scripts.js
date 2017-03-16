@@ -61,7 +61,6 @@ jQuery(document).ready(function( $ ) {
       $(this).toggleClass('closed');
       $('.research-caption-text').fadeToggle(300, false);
       $('.research-caption-link').fadeToggle(300, false);
-      });
    });
 
 
