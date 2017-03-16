@@ -80,10 +80,10 @@
 		<?php if ($dir == 'research'): ?>
 			<?php echo do_shortcode('[slick-slider category="5" design="design-3" arrows="false" sliderheight="419" speed="1000" autoplay_interval="4000"]'); ?>
 			<div class="research-caption">
-				<img id="link-arrow" src="<?php echo get_stylesheet_directory_uri() ?>/images/chevron_right_black.svg">
+				<img id="link-arrow" class="hidden" src="<?php echo get_stylesheet_directory_uri() ?>/images/chevron_right_black.svg">
 				<h3 class="research-caption-title"> Research Title </h3>
-				<p class="research-caption-text">Research caption</p>
-				<a href="" class="research-caption-link">research link</a>
+				<p class="research-caption-text hidden">Research caption</p>
+				<a href="" class="research-caption-link hidden">research link</a>
 			</div>
 		<?php endif; ?>
 

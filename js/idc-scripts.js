@@ -56,5 +56,12 @@ jQuery(document).ready(function( $ ) {
       captionContent();
    }, 1000);
 
+   //change caption header when clicked
+   $('#link-arrow').click(function() {
+      $(this).toggleClass('hidden');
+      $('.research-caption-text').toggleClass('hidden');
+      $('.research-caption-link').toggleClass('hidden');
+   });
+
 
 });
