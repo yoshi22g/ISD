@@ -149,6 +149,7 @@ li.nav-text,
 
 dfn, cite, em, i, b, strong {
    font-style: normal;
+   font-weight: normal;
    border-bottom: 1px solid #000;
 }
 
