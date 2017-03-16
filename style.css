@@ -574,9 +574,6 @@ img[title="International Lockup"] {
 /*--------------------------------------------------------------
 #### About
 --------------------------------------------------------------*/
-#news h3.entry-title {
-   margin-top: 40px;
-}
 
 #about #main.site-main {
    margin-top: 20px;
@@ -894,6 +891,14 @@ a.research-caption-link {
 /*--------------------------------------------------------------
 # News
 --------------------------------------------------------------*/
+
+#news h3.entry-title {
+   margin-top: 40px;
+}
+
+#news .entry-content a:link, #news .entry-content a:visited {
+   color: #FF3250;
+}
 
 article.category-news:not(:last-of-type)::after {
     content: '';
