@@ -60,8 +60,8 @@ jQuery(document).ready(function( $ ) {
    $('#link-arrow').click(function() {
       $(this).toggleClass('closed');
       $('.research-caption').toggleClass('expand');
-      $('.research-caption-text').fadeToggle(300, false);
-      $('.research-caption-link').fadeToggle(300, false);
+      $('.research-caption-text').fadeToggle(500, false);
+      $('.research-caption-link').fadeToggle(500, false);
    });
 
 

@@ -828,7 +828,7 @@ img[title="International Lockup"] {
 
 .research-caption.expand {
    max-height: 1000px;
-   transition: max-height 1000ms ease-in;
+   transition: max-height 500ms ease-in;
 }
 
 .research-caption-title {
