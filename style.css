@@ -866,7 +866,7 @@ a.research-caption-link {
    padding: 20px 20px 0 20px;
    z-index: 30;
    max-height: 63px;
-   transition: max-height 1000ms ease-in;
+   transition: max-height 500ms ease-in;
 }
 
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
