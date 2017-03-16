@@ -59,8 +59,8 @@ jQuery(document).ready(function( $ ) {
    //change caption header when clicked
    $('#link-arrow').click(function() {
       $(this).toggleClass('closed');
-      $('.research-caption-text').fadeToggle();
-      $('.research-caption-link').fadeToggle();
+      $('.research-caption-text').fadeToggle('500ms');
+      $('.research-caption-link').fadeToggle('500ms');
    });
 
 
