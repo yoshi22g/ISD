@@ -147,14 +147,9 @@ li.nav-text,
    /*letter-spacing: 0.05rem*/
 }
 
-dfn, cite, em, i {
+dfn, cite, em, i, b, strong {
    font-style: normal;
    border-bottom: 1px solid #000;
- }
-
-b, strong {
-   font-weight: normal;
-   border-bottom: 4px double #000;
 }
 
 blockquote:before, blockquote:after {
@@ -162,7 +157,7 @@ blockquote:before, blockquote:after {
 }
 
 blockquote * {
-   border-left: 4px solid #ff3250;
+   border-left: 4px solid #9b9b9b;
    padding-left: 1em;
 }
 
