@@ -826,20 +826,18 @@ img[title="International Lockup"] {
    margin-bottom: 20px;
 }
 
+.research-caption.min {
+   max-height: 63px;
+}
+
 .research-caption-title {
     margin-top: 0;
     margin-left: 10px;
     display: inline-block;
-    max-height: 1000px;
-    transition: max-height 0.25s ease-in;
 }
 
 #research .hidden {
    display: none;
-}
-
-.research-caption.min {
-   max-height: 63px;
 }
 
 #link-arrow {
@@ -866,6 +864,8 @@ a.research-caption-link {
    margin-left: calc(-618px*.5);
    padding: 20px 20px 0 20px;
    z-index: 30;
+   max-height: 1000px;
+   transition: max-height 0.25s ease-in;
 }
 
 #faculty .panel-grid-cell, #researchers .panel-grid-cell {
