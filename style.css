@@ -118,7 +118,7 @@ h5 {
 
 
 p,
-.widget ul li a, td, body.search h1.page-title {
+.widget ul li a, td, body.search h1.page-title, .widget p a {
    font-size: 1.125rem; /* Desktop 18px/26px */
    line-height: 1.625rem;
 }
@@ -235,6 +235,10 @@ a:active {
 .category-news .entry-content a:link,
 .category-news .entry-content a:visited {
    color: #FF3250;
+}
+
+#events .textwidget a:link, #events .textwidget a:visited {
+  color: #ff3250;
 }
 
 /*** Buttons ***/
