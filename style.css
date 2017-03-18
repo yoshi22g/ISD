@@ -299,8 +299,13 @@ a#button-all-news:hover {
 /*** Images ***/
 
 .profile img:hover {
-    background: #00D2C8;
-    cursor: pointer;
+  background: #00D2C8;
+  cursor: pointer;
+}
+
+.labs img:hover {
+  background: #ff3250;
+  cursor: pointer;
 }
 
 
