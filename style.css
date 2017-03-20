@@ -427,7 +427,7 @@ a#button-all-news:hover {
 
   .menu-toggle:hover, .menu-toggle:focus, .menu-toggle:active {
     text-decoration: none;
-    background-color: #fff;
+    background-color: transparent;
     outline: none;
   }
 
@@ -502,9 +502,13 @@ a#button-all-news:hover {
     display: block;
   }
 
+  .main-navigation.toggled
+
   .main-navigation.toggled #burger-black {
     display: none;
   }
+
+
 
   .main-navigation ul {
     display: none;
