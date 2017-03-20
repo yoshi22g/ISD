@@ -447,9 +447,9 @@ a#button-all-news:hover {
 
 
   .site-logo a.custom-logo-link {
-    width: 3.6875em;
+    width: 3.6875rem;
     padding: 0;
-    height: 3.6875em;
+    height: 3.6875rem;
     position: relative;
     top: 0;
     left: 20px;
@@ -457,9 +457,8 @@ a#button-all-news:hover {
   }
 
   .custom-logo-link img {
-     max-width: 100%;
-     width: 3.6875em;
-     height: 3.6875em;
+    max-width: 100%;
+    height: 100%;
   }
 
   .nav-menu {
