@@ -321,7 +321,7 @@ a#button-all-news:hover {
 #### Main Menu
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (min-width: 68.75em) {
+@media screen and (min-width: 68.75em) {
   .main-navigation {
     background-color: #ffffff;
     width: 940px;
@@ -402,19 +402,23 @@ a#button-all-news:hover {
 
 /*** Mobile Menu ***/
 
-.menu-toggle {
-  position: fixed;
-  z-index: 100;
-  top: 1em;
-  right: 1em;
-  text-transform: normal;
-  background-color: #fff;
-  color: #000;
-  border: none;
-  /*transition: all ease-out 400ms;*/
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width:50em) {
+
+  .menu-toggle {
+    position: fixed;
+    z-index: 100;
+    top: 1em;
+    right: 1em;
+    text-transform: normal;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    /*transition: all ease-out 400ms;*/
+  }
+
 }
 
-@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (min-width: 68.75em) {
+@media screen and (min-width: 68.75em) {
   .menu-toggle {
     display: none;
   }
