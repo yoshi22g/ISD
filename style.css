@@ -435,7 +435,7 @@ a#button-all-news:hover {
     padding: 0;
     background-color: #fff;
     width: 100%;
-    top: inherit;
+    bottom: inherit;
   }
 
   .main-navigation .site-logo {
