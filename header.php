@@ -68,7 +68,8 @@
 				</div>
 
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-					<img id="hamburger" src="<?php echo get_stylesheet_directory_uri() ?>/images/hamburger.svg"/>
+					<img class="hamburger" id="burger-black" src="<?php echo get_stylesheet_directory_uri() ?>/images/hamburger.svg"/>
+					<img class="hamburger" id="burger-white" src="<?php echo get_stylesheet_directory_uri() ?>/images/hamburger_white.svg"/>
 				</button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'nav-menu' ) ); ?>
 

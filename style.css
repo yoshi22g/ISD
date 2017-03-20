@@ -402,6 +402,11 @@ a#button-all-news:hover {
 
 /*** Mobile Menu ***/
 
+#burger-white {
+  display: none;
+}
+
+
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width:50em) {
 
   .menu-toggle {
@@ -491,6 +496,14 @@ a#button-all-news:hover {
     background-color: #ff3250;
     width: 100%;
     bottom: inherit;
+  }
+
+  .main-navigation.toggled #burger-white {
+    display: block;
+  }
+
+  .main-navigation.toggled #burger-black {
+    display: none;
   }
 
   .main-navigation ul {
