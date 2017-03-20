@@ -63,7 +63,8 @@
 						</div>
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="custom-logo-link">
-						<img class="custom-logo" src="<?php echo get_stylesheet_directory_uri() ?>/images/idc_pink_v6.svg"/>
+						<img class="custom-logo" id="logo-pink" src="<?php echo get_stylesheet_directory_uri() ?>/images/idc_pink_v6.svg"/>
+						<img class="custom-logo" id="logo-white" src="<?php echo get_stylesheet_directory_uri() ?>/images/idc_white_v6.svg"/>
 					</a>
 				</div>
 

@@ -402,7 +402,7 @@ a#button-all-news:hover {
 
 /*** Mobile Menu ***/
 
-#burger-white {
+#burger-white, #logo-white {
   display: none;
 }
 
@@ -498,11 +498,11 @@ a#button-all-news:hover {
     bottom: inherit;
   }
 
-  .main-navigation.toggled #burger-white {
+  .main-navigation.toggled #burger-white, .main-navigation.toggled #logo-white {
     display: block;
   }
 
-  .main-navigation.toggled #burger-black {
+  .main-navigation.toggled #burger-black, .main-navigation.toggled #logo-pink {
     display: none;
   }
 
