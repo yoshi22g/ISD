@@ -321,7 +321,7 @@ a#button-all-news:hover {
 #### Main Menu
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 68.75em) {
+@media screen and (min-width: 50em) and (max-width: 68.75em) {
   .main-navigation {
     background-color: #ffffff;
     width: 940px;
@@ -414,7 +414,7 @@ a#button-all-news:hover {
   /*transition: all ease-out 400ms;*/
 }
 
-@media screen and (min-width: 68.75em) {
+@media screen and (min-width: 50em) and (max-width: 68.75em) {
   .menu-toggle {
     display: none;
   }
