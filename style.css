@@ -401,7 +401,24 @@ li.bop-nav-search {
 /*** Mobile Menu ***/
 
 .menu-toggle {
+  position: fixed;
+  z-index: 100;
+  top: 1em;
+  right: 1em;
+  text-transform: normal;
   background-color: #fff;
+  color: #000;
+  border: none;
+  /*transition: all ease-out 400ms;*/
+}
+
+@media screen and (min-width: 68.75rem) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: block;
+  }
 }
 
 
