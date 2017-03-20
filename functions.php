@@ -18,6 +18,8 @@ add_action('after_setup_theme','idc_setup');
 function idc_scripts() {
 	wp_dequeue_style( 'popper-fira-sans' );
 	wp_dequeue_style( 'popper-merriweather' );
+	wp_dequeue_script( 'popper-functions' );
+    wp_deregister_script( 'popper-functions' );
 	wp_enqueue_script( 'duotone-script',get_stylesheet_directory_uri() . '/js/jquery-duotone-master/jquery.duotone.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_script( 'idc-scripts',get_stylesheet_directory_uri() . '/js/idc-scripts.js', array( 'jquery' ), '1.0.0', true );
 }
