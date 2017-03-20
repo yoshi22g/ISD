@@ -495,11 +495,13 @@ a#button-all-news:hover {
 
   .main-navigation li {
     display: block;
+    text-align: left;
   }
 
-  .main-navigation a:hover, .main-navigation a:focus {
+  .main-navigation ul a:hover, .main-navigation ul a:focus {
     color: #000;
     background-color: #ff3250;
+    outline: none;
   }
 
 
