@@ -528,6 +528,14 @@ a#button-all-news:hover {
    display: none;
   }
 
+  #post-5 header {
+     display: none;
+  }
+
+  #post-5 .widget-title {
+   display: none;
+  }
+
 }
 
 
