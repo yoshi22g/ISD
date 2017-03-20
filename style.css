@@ -407,7 +407,7 @@ a#button-all-news:hover {
   .menu-toggle {
     position: fixed;
     z-index: 100;
-    top: 1em;
+    top: inherit;
     right: 1em;
     text-transform: normal;
     background-color: #fff;
@@ -417,6 +417,7 @@ a#button-all-news:hover {
     display: block;
     bottom: inherit;
     left: inherit;
+    padding: 20px 0 0 0;
   }
 
     /* Position the menu in the header */
