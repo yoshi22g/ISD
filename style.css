@@ -490,7 +490,7 @@ a#button-all-news:hover {
 
   .main-navigation.toggled {
     position: fixed;
-    height: 3em;
+    height: 3.75em;
     margin: 0;
     padding: 0;
     background-color: #ff3250;
@@ -518,8 +518,9 @@ a#button-all-news:hover {
     overflow-y: visible;
     display: block;
     margin-bottom: 0;
-    margin-top: 48px;
+    margin-top: 58px;
     background: #ff3250;
+    border-top:1px solid #ffffff;
   }
 
   .main-navigation.toggled ul a:link, .main-navigation.toggled ul a:visited {
