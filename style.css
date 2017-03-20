@@ -525,7 +525,7 @@ a#button-all-news:hover {
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
 
   img[title="International Lockup"], img[title="Design Center Lockup"] {
-   display: none;
+   display: none !important;
   }
 
   #post-5 header {
