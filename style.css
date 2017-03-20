@@ -447,19 +447,19 @@ a#button-all-news:hover {
 
 
   .site-logo a.custom-logo-link {
-      width: 44px;
-      padding: 0;
-      height: 44px;
-      position: relative;
-      top: 8px;
-      left: -1px;
-      display: block;
+    width: 3.6875em;
+    padding: 0;
+    height: 3.6875em;
+    position: relative;
+    top: 0;
+    left: 20px;
+    display: block;
   }
 
   .custom-logo-link img {
      max-width: 100%;
-     width: 3rem;
-     height: 3rem;
+     width: 3.6875em;
+     height: 3.6875em;
   }
 
   .nav-menu {
