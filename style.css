@@ -414,6 +414,9 @@ a#button-all-news:hover {
     color: #000;
     border: none;
     /*transition: all ease-out 400ms;*/
+    display: block;
+    bottom: inherit;
+    left: inherit;
   }
 
 }
