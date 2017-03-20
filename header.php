@@ -67,7 +67,9 @@
 					</a>
 				</div>
 
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'idc' ); ?></button>
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<img id="hamburger" src="<?php echo get_stylesheet_directory_uri() ?>/images/hamburger.svg"/>
+				</button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'nav-menu' ) ); ?>
 
 				<!-- Search Exit button -->
