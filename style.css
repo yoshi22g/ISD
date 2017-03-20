@@ -518,32 +518,46 @@ a#button-all-news:hover {
 #### Homepage
 --------------------------------------------------------------*/
 
-#post-5 header {
+
+
+
+
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+
+  img[title="International Lockup"], img[title="Design Center Lockup"] {
    display: none;
-}
+  }
 
-#post-5 .widget-title {
-   display: none;
-}
-
-#home-text h5 {
-   font-size: 1.5rem;
-   line-height: 1.95rem;
-   letter-spacing: 0;
-}
-
-span.post-date {
-   display: block;
-   color: #9B9B9B;
-}
-
-img[title="International Lockup"] {
-   margin-top: 20px;
-   margin-bottom: 50px;
 }
 
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 68.75em) {
+
+  #post-5 header {
+     display: none;
+  }
+
+  #post-5 .widget-title {
+     display: none;
+  }
+
+  #home-text h5 {
+     font-size: 1.5rem;
+     line-height: 1.95rem;
+     letter-spacing: 0;
+  }
+
+  span.post-date {
+     display: block;
+     color: #9B9B9B;
+  }
+
+  img[title="International Lockup"] {
+     margin-top: 20px;
+     margin-bottom: 50px;
+  }
+
+
    #home-text .col {
       float: left;
    }
