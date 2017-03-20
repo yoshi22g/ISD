@@ -415,7 +415,7 @@ a#button-all-news:hover {
     top: inherit;
     right: 1em;
     text-transform: normal;
-    background-color: #fff;
+    background-color: transparent;
     color: #000;
     border: none;
     /*transition: all ease-out 400ms;*/
