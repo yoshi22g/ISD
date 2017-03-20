@@ -474,8 +474,7 @@ a#button-all-news:hover {
     background-color: transparent;
   }
 
-  .main-navigation ul,
-  .main-navigation.toggled ul {
+  .main-navigation ul {
     display: none;
     list-style: none;
     margin-left: 0;
@@ -483,6 +482,20 @@ a#button-all-news:hover {
 
   .main-navigation.toggled ul {
     overflow-y: visible;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 59px;
+    background: #ff3250;
+  }
+
+  .main-navigation.toggled ul a:link, .main-navigation.toggled ul a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .main-navigation a:hover, .main-navigation a:focus {
+    color: #000;
+    background-color: #ff3250;
   }
 
 
