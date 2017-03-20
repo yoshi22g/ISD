@@ -426,6 +426,16 @@ a#button-all-news:hover {
     outline: none;
   }
 
+  .menu-toggle.hide {
+    bottom: inherit;
+  }
+
+  /* Make sure the button doesn't hide when menu is open. */
+
+  .toggled .menu-toggle.hide {
+    bottom: inherit;
+  }
+
     /* Position the menu in the header */
   .main-navigation {
     position: fixed;
