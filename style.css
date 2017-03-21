@@ -535,6 +535,7 @@ a#button-all-news:hover {
     display: block;
     text-align: left;
     border-top: none;
+    width: 50%;
   }
 
   .main-navigation ul a:hover, .main-navigation ul a:focus {
