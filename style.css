@@ -1761,6 +1761,8 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
     top: 4em;
     right: 1em;
     z-index: 10000;
+    -webkit-transform: translate3d(0,0,1px);
+            transform: translate3d(0,0,1px);
   }
 
   input[type="search"],
