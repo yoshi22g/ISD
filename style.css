@@ -1739,6 +1739,7 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
     margin: 0;
     height: 2.0625rem;
     width: 15em;
+    transform:translate(-5px);
   }
 
   #mailing-address {
