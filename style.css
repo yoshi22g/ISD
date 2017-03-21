@@ -602,12 +602,12 @@ a#button-all-news:hover {
   }
 
   #home-slider > .panel-grid-cell {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   #home-slider .wpsisac-slick-slider, #about-slider .wpsisac-slick-slider {
-    width: 100%;
+    width: 100% !important;
   }
 
   #home-slider .slide-wrap, #about-slider .slide-wrap {
@@ -616,7 +616,7 @@ a#button-all-news:hover {
   }
 
   #home-slider .slick-list, #about-slider .slick-list {
-    height: 89vw;
+    height: 89vw !important;
   }
 
 
