@@ -601,6 +601,7 @@ a#button-all-news:hover {
    display: none;
   }
 
+  /*
   #home-slider > .panel-grid-cell {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -618,7 +619,7 @@ a#button-all-news:hover {
 
   #home-slider .slick-list, #about-slider .slick-list {
     height: 89vw !important;
-  }
+  }*/
 
 
 
