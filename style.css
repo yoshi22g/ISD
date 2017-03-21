@@ -573,6 +573,13 @@ a#button-all-news:hover {
    }
 }
 
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+
+  .site-main {
+    max-width: 100%;
+  }
+}
+
 .entry-content p {
    max-width: 66%;
    margin: 0 auto 2rem auto;
