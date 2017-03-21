@@ -608,6 +608,7 @@ a#button-all-news:hover {
 
   #home-slider .wpsisac-slick-slider, #about-slider .wpsisac-slick-slider {
     width: 100% !important;
+    height: 89vw !important;
   }
 
   #home-slider .slide-wrap, #about-slider .slide-wrap {
