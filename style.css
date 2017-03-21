@@ -566,7 +566,7 @@ a#button-all-news:hover {
 }
 
 
-@media screen and (min-width: 57em) {
+@media screen and (min-width: 68.75em) {
    .site-main {
       max-width: 58.75rem;
       margin: 1.8em auto;
