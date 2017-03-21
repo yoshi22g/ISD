@@ -1691,4 +1691,16 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
     line-height: 23px;
   }
 
+  .social-icons ul {
+    margin-left: 0;
+    margin-top: 3.75rem;
+    float: left;
+  }
+
+  #mit-logo {
+    margin-right: 0;
+    float: right;
+    margin-top: 60px;
+  }
+
 }
