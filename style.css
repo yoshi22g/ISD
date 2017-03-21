@@ -627,6 +627,10 @@ a#button-all-news:hover {
     width: 100vw !important;
     height: 66vw !important;
   }
+
+  .slick-image-slide img {
+    transform: translateX(15px);
+  }
 /*
   #home-slider .slick-list, #about-slider .slick-list {
     height: 89vw !important;
