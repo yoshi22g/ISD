@@ -30,7 +30,7 @@
 					<?php endif; ?>
 				</li>
 				<!-- Logo -->
-				<li id="mailing-address">265 Massachusetts Ave., Cambridge, MA 02139</li>
+				<li id="mailing-address">265 Massachusetts Ave., <br class="rwd-break">Cambridge, MA 02139</li>
 				<li class="social-icons">
 					<ul>
 						<li><a href="<?php echo esc_url( __( 'https://www.facebook.com/MIT-International-Design-Center-1576596442600209/', 'idc' ) ); ?>">
