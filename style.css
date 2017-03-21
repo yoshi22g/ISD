@@ -1666,6 +1666,10 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width:50em) {
 
+  .site-footer {
+    padding-bottom: 0;
+  }
+
   nav.site-info {
     width: 100%;
   }
