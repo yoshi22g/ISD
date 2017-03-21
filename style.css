@@ -601,22 +601,26 @@ a#button-all-news:hover {
    display: none;
   }
 
-  /*
+  .site-main {
+    margin: 0;
+  }
+
+
   #home-slider > .panel-grid-cell {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
+/*
   #home-slider .wpsisac-slick-slider, #about-slider .wpsisac-slick-slider {
     width: 100% !important;
     height: 89vw !important;
-  }
+  }*/
 
   #home-slider .slide-wrap, #about-slider .slide-wrap {
     width: 100% !important;
     height: 89vw !important;
   }
-
+/*
   #home-slider .slick-list, #about-slider .slick-list {
     height: 89vw !important;
   }*/
