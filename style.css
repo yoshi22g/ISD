@@ -1687,12 +1687,13 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
 
   nav.site-info > ul > li:first-child {
     margin: 0;
-    height: 30px;
+    height: 2.0625rem;
+    width: 15em;
   }
 
   #mailing-address {
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
   }
 
   .social-icons ul {
