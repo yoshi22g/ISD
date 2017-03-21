@@ -527,6 +527,7 @@ a#button-all-news:hover {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
+    padding-bottom: 0;
   }
 
   .main-navigation li {
