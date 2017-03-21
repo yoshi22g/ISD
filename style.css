@@ -617,7 +617,7 @@ a#button-all-news:hover {
   }*/
 
   #home-slider .slide-wrap, #about-slider .slide-wrap {
-    width: 100% !important;
+    width: 100vw !important;
     height: 89vw !important;
   }
 /*
