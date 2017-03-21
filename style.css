@@ -450,6 +450,7 @@ a#button-all-news:hover {
     background-color: #fff;
     width: 100%;
     bottom: inherit;
+    z-index: 10000;
   }
 
   .main-navigation .site-logo {
@@ -1718,6 +1719,8 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
 
   .site-footer {
     padding-bottom: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   nav.site-info {
