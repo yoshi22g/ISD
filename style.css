@@ -1710,8 +1710,14 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
 
   li.bop-nav-search {
     position: absolute;
-    top: 1em;
+    top: 4em;
     right: 1em;
+  }
+
+  input[type="search"],
+  .error404 input[type="search"],
+  .search-no-results input[type="search"] {
+    background-image: url(images/search_white.svg);
   }
 
 }
