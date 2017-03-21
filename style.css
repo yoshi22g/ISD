@@ -1708,4 +1708,10 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
     margin-top: 60px;
   }
 
+  li.bop-nav-search {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
 }
