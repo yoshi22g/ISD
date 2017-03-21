@@ -669,6 +669,27 @@ a#button-all-news:hover {
    #home-text .panel-last-child {
       width: 29.57%;
    }
+
+  #home-slider .slick-list,
+  #about-slider .slick-list {
+    height: 470px;
+  }
+
+
+  #home-slider .wpsisac-slick-slider,
+  #about-slider .wpsisac-slick-slider {
+    width: 620px;
+    margin: 0 auto;
+    height: 470px;
+  }
+
+
+  #home-slider .slide-wrap,
+  #about-slider .slide-wrap {
+    width: 619px;
+    margin: 0 auto;
+    height: 470px !important;
+  }
 }
 
 #home-text .widget_recent-posts .col li, #home-text .widget_recent-posts .col li a  {
@@ -686,26 +707,7 @@ a#button-all-news:hover {
     -webkit-perspective: 1000px; }
 
 
-#home-slider .slick-list,
-#about-slider .slick-list {
-   height: 470px;
-}
 
-
-#home-slider .wpsisac-slick-slider,
-#about-slider .wpsisac-slick-slider {
-    width: 620px;
-    margin: 0 auto;
-    height: 470px;
-}
-
-
-#home-slider .slide-wrap,
-#about-slider .slide-wrap {
-   width: 619px;
-   margin: 0 auto;
-   height: 470px !important;
- }
 
 #home-slider .wpsisac-slick-slider .slick-dots li button,
 #about-slider .wpsisac-slick-slider .slick-dots li button {
