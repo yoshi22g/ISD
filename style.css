@@ -548,7 +548,7 @@ a#button-all-news:hover {
   .main-navigation .current_page_item > a,
   .main-navigation .current_page_ancestor > a {
       font-weight: normal;
-      color: #000;
+      color: #000 !important;
   }
 
 
