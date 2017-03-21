@@ -612,7 +612,7 @@ a#button-all-news:hover {
   }
 
   #home-slider .slide-wrap, #about-slider .slide-wrap {
-    width: 100vw;
+    width: 100% !important;
     height: 89vw !important;
   }
 
