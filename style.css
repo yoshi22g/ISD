@@ -628,7 +628,7 @@ a#button-all-news:hover {
     height: 66vw !important;
   }
 
-  .slick-image-slide img {
+  #home-slider .slick-image-slide img, #home-slider .slick-image-slide .slide-wrap .slider-content .bg-overlay {
     transform: translateX(15px);
   }
 /*
