@@ -402,9 +402,11 @@ a#button-all-news:hover {
 
 /*** Mobile Menu ***/
 
-#burger-white, #logo-white {
+#burger-white, #logo-white, #logo-black {
   display: none;
 }
+
+
 
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width:50em) {
@@ -499,11 +501,19 @@ a#button-all-news:hover {
     bottom: inherit;
   }
 
+  .main-navigation #logo-pink {
+    display: none;
+  }
+
+  .main-navigation #logo-black {
+    display: block;
+  }
+
   .main-navigation.toggled #burger-white, .main-navigation.toggled #logo-white {
     display: block;
   }
 
-  .main-navigation.toggled #burger-black, .main-navigation.toggled #logo-pink {
+  .main-navigation.toggled #burger-black, .main-navigation.toggled #logo-black {
     display: none;
   }
 
