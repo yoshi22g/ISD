@@ -1718,6 +1718,9 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
   .error404 input[type="search"],
   .search-no-results input[type="search"] {
     background-image: url(images/search_white.svg);
+    background-color: transparent;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
 }
