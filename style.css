@@ -415,7 +415,7 @@ a#button-all-news:hover {
     position: fixed;
     z-index: 100;
     top: inherit;
-    right: 1em;
+    right: 1.25rem;
     text-transform: normal;
     background-color: transparent;
     color: #000;
