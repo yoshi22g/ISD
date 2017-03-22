@@ -501,19 +501,26 @@ a#button-all-news:hover {
     bottom: inherit;
   }
 
-  .main-navigation #logo-pink {
+  .main-navigation #logo-pink,
+  #events .main-navigation #logo-black,
+  #events .main-navigation #burger-black {
     display: none;
   }
 
-  .main-navigation #logo-black {
+  .main-navigation #logo-black,
+  #events .main-navigation #logo-pink {
     display: block;
   }
 
-  .main-navigation.toggled #burger-white, .main-navigation.toggled #logo-white {
+  .main-navigation.toggled #burger-white,
+  #events .main-navigation #burger-white,
+  .main-navigation.toggled #logo-white {
     display: block;
   }
 
-  .main-navigation.toggled #burger-black, .main-navigation.toggled #logo-black {
+  .main-navigation.toggled #burger-black,
+  .main-navigation.toggled #logo-black,
+  #events .main-navigation.toggled #logo-pink {
     display: none;
   }
 
