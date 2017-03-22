@@ -1782,7 +1782,7 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
     margin-top: 60px;
   }
 
-  li.bop-nav-search {
+  li.bop-nav-search, #events li.bop-nav-search {
     position: absolute;
     top: 4em;
     right: 1em;
