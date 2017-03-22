@@ -501,6 +501,10 @@ a#button-all-news:hover {
     bottom: inherit;
   }
 
+  #events .main-navigation.toggled {
+    background-color: #ff3250;
+  }
+
   .main-navigation #logo-pink,
   #events .main-navigation #logo-black,
   #events .main-navigation #burger-black {
