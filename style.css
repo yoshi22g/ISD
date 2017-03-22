@@ -667,6 +667,11 @@ a#button-all-news:hover {
     height: 89vw !important;
   }*/
 
+  div#home-text.panel-row-style {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
 
 
 }
