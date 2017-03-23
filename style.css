@@ -581,11 +581,6 @@ a#button-all-news:hover {
       color: #000 !important;
   }
 
-  #research .site-header, #research .main-navigation {
-    background-color: #fff;
-  }
-
-
 }
 
 @media screen and (min-width: 68.75em) {
@@ -1192,6 +1187,10 @@ a.research-caption-link {
     margin-left: 10px;
     display: inline-block;
     width: 80vw;
+  }
+
+  #research .site-header, #research .main-navigation {
+    background-color: #fff;
   }
 }
 
