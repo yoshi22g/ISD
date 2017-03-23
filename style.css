@@ -175,9 +175,9 @@ blockquote * {
 
   h1,
   h1.entry-title {
-    font-size: 4.5rem;
-    /* Mobile 72px/80px */
-    line-height: 5rem;
+    font-size: 3rem;
+    /* Mobile 48px/52px */
+    line-height: 3.25rem;
     text-align: center;
   }
 
