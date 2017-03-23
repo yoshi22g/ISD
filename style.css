@@ -1158,8 +1158,18 @@ a.research-caption-link {
    margin: 0 auto !important;
 }
 
-
-
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  #research .wpsisac-slick-slider {
+    width: 100vw;
+    margin: 0;
+    height: 68vw;
+    position: relative;
+    top: -0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
+}
 
 
 /*--------------------------------------------------------------
