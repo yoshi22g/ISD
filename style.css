@@ -617,7 +617,11 @@ a#button-all-news:hover {
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
 
-  .site-main {
+  .site-main,
+  #about .site-main,
+  #research .site-main,
+  #learning-making .site-main,
+  #events .site-main {
     max-width: 100%;
     margin: 5.5rem 0 0 0;
   }
