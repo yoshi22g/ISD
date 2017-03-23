@@ -1483,6 +1483,13 @@ body#events, #events footer {
    background-color: #00D2C8;
 }
 
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  #events .site-main {
+    margin-top: 5.5rem;
+  }
+
+}
+
 
 /*--------------------------------------------------------------
 # Partnerships
