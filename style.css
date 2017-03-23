@@ -1342,33 +1342,36 @@ li span.page-numbers.current {
 ## Learning & Making
 --------------------------------------------------------------*/
 
-#learning-making h1.entry-title {
-   display: none;
-}
+@media screen and (min-width: 68.75em) {
 
-#learning-making main#main.site-main {
-   margin-top: 0;
-}
+  #learning-making h1.entry-title {
+     display: none;
+  }
 
-
-
-#learning-making h2, #learning-making h4 {
-   text-align: center;
-   margin-bottom: 3.25rem;
-}
+  #learning-making main#main.site-main {
+     margin-top: 0;
+  }
 
 
-.classes-hosted p {
-   margin-bottom: .75rem;
-   margin-top: .75rem;
-}
 
-hr {
-   background-color: #000000;
-   border: 0;
-   height: 1px;
-   margin-bottom: 0;
-   max-width: 66%;
+  #learning-making h2, #learning-making h4 {
+     text-align: center;
+     margin-bottom: 3.25rem;
+  }
+
+
+  .classes-hosted p {
+     margin-bottom: .75rem;
+     margin-top: .75rem;
+  }
+
+  hr {
+     background-color: #000000;
+     border: 0;
+     height: 1px;
+     margin-bottom: 0;
+     max-width: 66%;
+  }
 }
 
 
