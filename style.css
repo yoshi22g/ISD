@@ -624,7 +624,8 @@ a#button-all-news:hover {
   #about .site-main,
   #research .site-main,
   #learning-making .site-main,
-  #events .site-main {
+  #events .site-main,
+  #news .site-main {
     margin: 5.5rem 0 0 0;
   }
 
