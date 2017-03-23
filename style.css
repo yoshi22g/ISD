@@ -608,6 +608,11 @@ a#button-all-news:hover {
       max-width: 58.75rem;
       margin: 1.8em auto;
    }
+
+   .entry-content p {
+   max-width: 66%;
+   margin: 0 auto 2rem auto;
+  }
 }
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
@@ -620,11 +625,6 @@ a#button-all-news:hover {
     max-width: 100%;
     margin: 0 1.25rem 2rem;
   }
-}
-
-.entry-content p {
-   max-width: 66%;
-   margin: 0 auto 2rem auto;
 }
 
 
