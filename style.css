@@ -657,6 +657,9 @@ a#button-all-news:hover {
    display: none;
   }
 
+  #home .site-main {
+    margin: 0;
+  }
 
   #home-slider > .panel-grid-cell {
     padding-left: 0 !important;
