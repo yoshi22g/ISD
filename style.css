@@ -135,7 +135,10 @@ span.post-date {
 
 p.xsmall-text,
 #contact .textwidget h4,
-#contact .textwidget p, .index-entry-meta p, .index-entry-meta a {
+#contact .textwidget p,
+.index-entry-meta p,
+.index-entry-meta a,
+#contact .widget p a {
    font-size: 0.8125rem; /* Desktop 13px/20px */
    line-height: 1.25rem;
 }
