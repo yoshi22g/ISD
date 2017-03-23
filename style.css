@@ -1485,10 +1485,12 @@ body#events, #events footer {
 }
 
 #speakers.profile .textwidget h4 {
-   margin-top: 6px;
-   margin-bottom: 6px;
-   text-transform: none;
-   letter-spacing: 0;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #speakers.profile img {
