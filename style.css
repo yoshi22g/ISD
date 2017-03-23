@@ -581,6 +581,10 @@ a#button-all-news:hover {
       color: #000 !important;
   }
 
+  #research .site-header, #research .main-navigation {
+    background-color: #fff;
+  }
+
 
 }
 
