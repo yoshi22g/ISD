@@ -526,7 +526,7 @@ a#button-all-news:hover {
   .main-navigation.toggled #logo-black,
   #events .main-navigation.toggled #logo-pink,
   #research .main-navigation #logo-black,
-  #reserach .main-navigation #burger-black {
+  #research .main-navigation #burger-black {
     display: none;
   }
 
