@@ -1169,6 +1169,19 @@ a.research-caption-link {
     right: 0;
     z-index: 0;
   }
+
+  .research-caption {
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+  }
+
+  .research-caption-title {
+    margin-top: 0;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80vw;
+  }
 }
 
 
