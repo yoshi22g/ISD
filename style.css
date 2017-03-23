@@ -534,7 +534,7 @@ a#button-all-news:hover {
   .main-navigation.toggled #burger-white,
   #events .main-navigation #burger-white,
   .main-navigation.toggled #logo-white,
-  body#research .main-navigation #logo-white
+  body#research .main-navigation #logo-white,
   body#research .main-navigation #burger-white {
     display: block;
   }
