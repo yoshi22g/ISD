@@ -483,6 +483,11 @@ a#button-all-news:hover {
      border: 0;
   }
 
+  .site-logo a:hover,
+  .site-logo a:focus {
+    outline: none;
+  }
+
   .main-navigation .site-logo a:first-child {
      display: none;
   }
