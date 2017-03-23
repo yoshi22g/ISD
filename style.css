@@ -1214,6 +1214,10 @@ a.research-caption-link {
   #research .site-header, #research .main-navigation {
     background-color: #fff;
   }
+
+  #research .main-navigation a:hover {
+   color: #000;
+  }
 }
 
 
