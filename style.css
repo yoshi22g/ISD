@@ -615,6 +615,11 @@ a#button-all-news:hover {
   .site-main {
     max-width: 100%;
   }
+
+  .entry-content p {
+    max-width: 100%;
+    margin: 0 1.25rem 2rem;
+  }
 }
 
 .entry-content p {
