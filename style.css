@@ -524,9 +524,7 @@ a#button-all-news:hover {
   #events .main-navigation #burger-black,
   .main-navigation.toggled #burger-black,
   .main-navigation.toggled #logo-black,
-  #events .main-navigation.toggled #logo-pink,
-  #research .main-navigation #logo-black,
-  #research .main-navigation #burger-black {
+  #events .main-navigation.toggled #logo-pink {
     display: none;
   }
 
@@ -534,9 +532,7 @@ a#button-all-news:hover {
   #events .main-navigation #logo-pink,
   .main-navigation.toggled #burger-white,
   #events .main-navigation #burger-white,
-  .main-navigation.toggled #logo-white,
-  #research .main-navigation #logo-white,
-  #research .main-navigation #burger-white {
+  .main-navigation.toggled #logo-white {
     display: block;
   }
 
@@ -1175,7 +1171,7 @@ a.research-caption-link {
     margin: 0;
     height: 68vw;
     position: relative;
-    top: -0;
+    top: 3.5em;
     left: 0;
     right: 0;
     z-index: 0;
