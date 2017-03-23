@@ -171,6 +171,20 @@ blockquote * {
 
 }
 
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+
+  h1,
+  h1.entry-title {
+    font-size: 4.5rem;
+    /* Mobile 72px/80px */
+    line-height: 5rem;
+    text-align: center;
+  }
+
+
+}
+
+
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -507,27 +521,23 @@ a#button-all-news:hover {
 
   .main-navigation #logo-pink,
   #events .main-navigation #logo-black,
-  #events .main-navigation #burger-black {
+  #events .main-navigation #burger-black,
+  .main-navigation.toggled #burger-black,
+  .main-navigation.toggled #logo-black,
+  #events .main-navigation.toggled #logo-pink,
+  body#research .main-navigation #logo-black {
     display: none;
   }
 
   .main-navigation #logo-black,
-  #events .main-navigation #logo-pink {
-    display: block;
-  }
-
+  #events .main-navigation #logo-pink,
   .main-navigation.toggled #burger-white,
   #events .main-navigation #burger-white,
-  .main-navigation.toggled #logo-white {
+  .main-navigation.toggled #logo-white,
+  body#research .main-navigation #logo-white
+  body#research .main-navigation #burger-white {
     display: block;
   }
-
-  .main-navigation.toggled #burger-black,
-  .main-navigation.toggled #logo-black,
-  #events .main-navigation.toggled #logo-pink {
-    display: none;
-  }
-
 
 
   .main-navigation ul {
