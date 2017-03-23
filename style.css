@@ -619,6 +619,7 @@ a#button-all-news:hover {
 
   .site-main {
     max-width: 100%;
+    margin: 0 5.5rem;
   }
 
   .entry-content p {
@@ -648,10 +649,6 @@ a#button-all-news:hover {
 
   #post-5 .widget-title {
    display: none;
-  }
-
-  .site-main {
-    margin: 0;
   }
 
 
@@ -1333,9 +1330,7 @@ li span.page-numbers.current {
 /* News Mobile */
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
-  #news .site-main {
-    margin-top: 5.5rem;
-  }
+
 }
 
 
@@ -1374,9 +1369,6 @@ hr {
 
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
-  #learning-making .site-main {
-    margin-top: 5.5rem;
-  }
 
   #learning-making h2, #learning-making h4 {
     font-size: 2rem;
@@ -1484,9 +1476,6 @@ body#events, #events footer {
 }
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
-  #events .site-main {
-    margin-top: 5.5rem;
-  }
 
 }
 
