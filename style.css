@@ -1325,6 +1325,15 @@ li span.page-numbers.current {
    margin-left: 12.82%;
 }
 
+/* News Mobile */
+
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  #news .site-main {
+    margin-top: 5.5rem;
+  }
+}
+
+
 /*--------------------------------------------------------------
 ## Learning & Making
 --------------------------------------------------------------*/
