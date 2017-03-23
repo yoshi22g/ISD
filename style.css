@@ -515,7 +515,7 @@ a#button-all-news:hover {
     bottom: inherit;
   }
 
-  #events .main-navigation.toggled {
+  #events .main-navigation.toggled, #research .main-navigation.toggled {
     background-color: #ff3250;
   }
 
@@ -1836,7 +1836,10 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
   .search-no-results input[type="search"],
   body#events input[type="search"],
   body#events .error404 input[type="search"],
-  body#events .search-no-results input[type="search"] {
+  body#events .search-no-results input[type="search"],
+  body#research input[type="search"],
+  body#research .error404 input[type="search"],
+  body#research .search-no-results input[type="search"]{
     background-image: url(images/search_white.svg);
     background-color: transparent;
     width: 1.5em;
