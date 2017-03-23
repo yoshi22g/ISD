@@ -1373,6 +1373,18 @@ hr {
 }
 
 
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  #learning-making .site-main {
+    margin-top: 5.5rem;
+  }
+
+  #learning-making h2, #learning-making h4 {
+    font-size: 2rem;
+    /* Desktop 72px/89px */
+    line-height: 2.25rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
