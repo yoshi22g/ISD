@@ -23,6 +23,10 @@ jQuery(document).ready(function( $ ) {
       $(this).addClass("search-hide");
    });
 
+   $("input.search-field").focusout(function(){
+      $("#search-x").addClass("search-hide");
+   });
+
 
 
 //// Jquery Image Duotone ////
