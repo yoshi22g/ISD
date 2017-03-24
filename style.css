@@ -1785,14 +1785,14 @@ body.search .page-header::after {
      width: 70%;
      height: 100%;
      color: #FFFFFF;
-     font-size: 2rem; /* Desktop 72px/89px */
-     line-height: 2.5rem;
+     font-size: 1.5rem; /* Desktop 24px/25px */
+     line-height: 1.5625rem;
      /*margin-top: -60vh;*/
      font-family: 'Favorit IDC';
-     padding-bottom: 50vh;
+     padding-bottom: 270px;
      padding-top: 0;
-     padding-right: 1.5rem;
-     padding-left: 1.5625rem;
+     padding-right: 1.25rem;
+     padding-left: 1.25rem;
      background-image: none;
   }
 
