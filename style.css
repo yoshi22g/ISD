@@ -1775,7 +1775,7 @@ body.search .page-header::after {
      background-color: #FF3250;
      cursor: text;
      outline: 0;
-     width: 100%;
+     width: 70%;
      height: 100%;
      color: #FFFFFF;
      font-size: 2rem; /* Desktop 72px/89px */
@@ -1784,11 +1784,12 @@ body.search .page-header::after {
      font-family: 'Favorit IDC';
      padding-bottom: 50vh;
      padding-top: 0;
-     padding-right: 1.25rem;
-     padding-left: 1.25rem;
+     padding-right: 1.5rem;
+     padding-left: 1.5625rem;
      background-image: none;
-
   }
+
+
 
 
 }

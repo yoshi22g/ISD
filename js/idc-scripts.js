@@ -2,6 +2,16 @@ jQuery(document).ready(function( $ ) {
 
 /// SEARCH EXIT UI ////
 
+   //change out X-out color based on screen size
+   var x_path = $("#search-x").attr("src");
+   var x_white_path = x_path.slice(0,-4) + '-white.svg';
+
+   if($(window).width() < 1100) {
+         $("#search-x").attr("src", x_white_path);
+   } else {
+         $("#search-x").attr("src", x_path);
+   }
+
    //when search is clicked, show the X button
    $("input.search-field").focus(function(){
       $("#search-x").removeClass("search-hide");
