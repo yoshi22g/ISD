@@ -1768,6 +1768,13 @@ body.search .page-header::after {
 
 @media screen and (min-width:50em) and (max-width: 68.75em), screen and (max-width: 50em) {
 
+  #search-x {
+    right: 22px;
+    top: 84px;
+    width: auto;
+    height: auto;
+  }
+
   input[type="search"]:focus,
   body#research input[type="search"]:focus,
   body#events input[type="search"]:focus {
