@@ -650,95 +650,6 @@ a#button-all-news:hover {
 #### Homepage
 --------------------------------------------------------------*/
 
-
-
-
-
-@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
-
-  img[title="International Lockup"], img[title="Design Center Lockup"] {
-   display: none !important;
-  }
-
-  #post-5 header {
-     display: none;
-  }
-
-  #post-5 .widget-title {
-   display: none;
-  }
-
-  #home .site-main {
-    margin: 0;
-  }
-
-  #home-text h5 {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 2.8125rem;
-  }
-
-  span.post-date {
-    display: block;
-    color: #9b9b9b;
-    font-size: 0.8125rem;
-    line-height: 1.25rem;
-  }
-
-  #home-slider > .panel-grid-cell {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-/*
-  #home-slider .wpsisac-slick-slider, #about-slider .wpsisac-slick-slider {
-    width: 100% !important;
-    height: 89vw !important;
-  }*/
-
-  #home-slider .slide-wrap, #about-slider .slide-wrap {
-    width: 100vw !important;
-    height: 66vw !important;
-  }
-
-  #home-slider .slick-image-slide img, #home-slider .slick-image-slide .slide-wrap .slider-content .bg-overlay {
-    transform: translateX(15px);
-  }
-
-  #home-slider .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-short-content {
-    margin: 0 1.25rem;
-    font-size: 0.875rem;
-    line-height: 1.125rem;
-    border-bottom: 1px solid #000;
-    padding-bottom: 1rem;
-  }
-
-  #home-slider .wpsisac-slick-slider .readmore {
-    top: -56px;
-  }
-
-  .panel-grid #pg-5-2, .panel-grid #pg-5-0 {
-    display: none;
-  }
-
-
-
-
-/*
-  #home-slider .slick-list, #about-slider .slick-list {
-    height: 89vw !important;
-  }*/
-
-  div#home-text.panel-row-style {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-
-
-}
-
-
 @media screen and (min-width: 68.75em) {
 
   #post-5 header {
@@ -894,6 +805,85 @@ a#button-all-news:hover {
 
 #about-slider .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-content, #about-slider .wpsisac-slick-slider .readmore {
    display: none;
+}
+
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+
+  img[title="International Lockup"], img[title="Design Center Lockup"] {
+   display: none !important;
+  }
+
+  #post-5 header {
+     display: none;
+  }
+
+  #post-5 .widget-title {
+   display: none;
+  }
+
+  #home .site-main {
+    margin: 0;
+  }
+
+  #home-text h5 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 2.8125rem;
+  }
+
+  span.post-date {
+    display: block;
+    color: #9b9b9b;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+  }
+
+  #home-slider > .panel-grid-cell {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+/*
+  #home-slider .wpsisac-slick-slider, #about-slider .wpsisac-slick-slider {
+    width: 100% !important;
+    height: 89vw !important;
+  }*/
+
+  #home-slider .slide-wrap, #about-slider .slide-wrap {
+    width: 100vw !important;
+    height: 66vw !important;
+  }
+
+  #home-slider .slick-image-slide img, #home-slider .slick-image-slide .slide-wrap .slider-content .bg-overlay {
+    transform: translateX(15px);
+  }
+
+  #home-slider .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-short-content {
+    margin: 0 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+  }
+
+  #home-slider .wpsisac-slick-slider .readmore {
+    top: -56px;
+  }
+
+  .panel-grid#pg-5-2, .panel-grid#pg-5-0 {
+    display: none;
+  }
+
+/*
+  #home-slider .slick-list, #about-slider .slick-list {
+    height: 89vw !important;
+  }*/
+
+  div#home-text.panel-row-style {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
 }
 
 /*--------------------------------------------------------------
