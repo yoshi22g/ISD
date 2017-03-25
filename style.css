@@ -704,6 +704,26 @@ a#button-all-news:hover {
   #home-slider .slick-image-slide img, #home-slider .slick-image-slide .slide-wrap .slider-content .bg-overlay {
     transform: translateX(15px);
   }
+
+  #home-slider .wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-short-content {
+    margin: 0 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+  }
+
+  #home-slider .wpsisac-slick-slider .readmore {
+    top: -56px;
+  }
+
+  .panel-grid #pg-5-2, .panel-grid #pg-5-0 {
+    display: none;
+  }
+
+
+
+
 /*
   #home-slider .slick-list, #about-slider .slick-list {
     height: 89vw !important;
