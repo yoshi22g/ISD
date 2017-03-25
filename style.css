@@ -875,6 +875,10 @@ a#button-all-news:hover {
     display: none;
   }
 
+  div#pg-5-1.panel-grid {
+    margin-bottom: 0px;
+  }
+
 /*
   #home-slider .slick-list, #about-slider .slick-list {
     height: 89vw !important;
