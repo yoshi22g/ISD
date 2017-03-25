@@ -672,6 +672,20 @@ a#button-all-news:hover {
     margin: 0;
   }
 
+  #home-text h5 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 2.8125rem;
+  }
+
+  span.post-date {
+    display: block;
+    color: #9b9b9b;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+  }
+
   #home-slider > .panel-grid-cell {
     padding-left: 0 !important;
     padding-right: 0 !important;
