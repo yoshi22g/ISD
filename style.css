@@ -867,7 +867,8 @@ a#button-all-news:hover {
   }
 
   #home-slider .wpsisac-slick-slider .readmore {
-    top: -56px;
+    top: -54px;
+    background-position: 20px 20px;
   }
 
   .panel-grid#pg-5-2, .panel-grid#pg-5-0 {
