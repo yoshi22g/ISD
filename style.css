@@ -1701,6 +1701,15 @@ body#events, #events footer {
   #events table, #events td {
     text-align: center;
   }
+
+  table.oneColumn tr {
+    border: none;
+  }
+
+  td[data-cell-id='A9'],
+  td[data-cell-id='A10'] {
+    padding-top: 1.25rem;
+  }
 }
 
 
