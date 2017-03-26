@@ -1084,6 +1084,7 @@ a#button-all-news:hover {
   }
 
   .profile .textwidget p,
+  #contact .textwidget p,
   .meta-nav,
   .post-navigation .post-title {
     line-height: 1.25rem;
