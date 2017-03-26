@@ -1579,7 +1579,12 @@ li span.page-numbers.current {
     margin-top: 1.5em;
   }
 
-  #learning-making .class-hosted .entry-content p {
+  #learning-making .entry-content p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #learning-making .classes-hosted .entry-content p {
     margin: 0;
   }
 }
