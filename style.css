@@ -1361,6 +1361,12 @@ a.research-caption-link {
    text-align: center;
 }
 
+@media screen and (max-width: 20em) {
+  body#labs h1, body#labs h1.entry-title {
+    font-size: 2.7rem;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # News
