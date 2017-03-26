@@ -338,6 +338,20 @@ a#button-all-news:hover {
   .ow-button-base .ow-button-align-center {
     font-size: 0.875rem;
   }
+
+  #partners .textwidget {
+    width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  #partners .textwidget a {
+    margin: 1rem auto;
+    flex-basis: 80%;
+    flex-shrink: 0;
+    text-align: center;
+  }
 }
 
 /*--------------------------------------------------------------
