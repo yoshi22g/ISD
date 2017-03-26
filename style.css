@@ -1056,6 +1056,12 @@ a#button-all-news:hover {
    max-width: 100%;
 }
 
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  #about #main.site-main {
+    margin-top: 5.5rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Research
 --------------------------------------------------------------*/
