@@ -1061,7 +1061,7 @@ a#button-all-news:hover {
     margin-top: 5.5rem;
   }
 
-  div.wpsisac-slick-slider-1.wpsisac-slick-slider.design-3.slick-initialized.slick-slider.slick-dotted {
+  #about div.wpsisac-slick-slider-1.wpsisac-slick-slider.design-3.slick-initialized.slick-slider.slick-dotted {
     height: 67vw;
   }
 
@@ -1070,7 +1070,13 @@ a#button-all-news:hover {
   }
 
   div#about-slider.panel-row-style {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  #home-slider .wpsisac-slick-slider.design-3 .slick-dots,
+  #about-slider .wpsisac-slick-slider.design-3 .slick-dots {
+    right: 30px;
+    bottom: 20px !important;
   }
 }
 
