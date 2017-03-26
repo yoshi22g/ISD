@@ -1060,6 +1060,14 @@ a#button-all-news:hover {
   #about #main.site-main {
     margin-top: 5.5rem;
   }
+
+  div.wpsisac-slick-slider-1.wpsisac-slick-slider.design-3.slick-initialized.slick-slider.slick-dotted {
+    height: 67vw;
+  }
+
+  #about .entry-content p {
+    line-height: 1.5rem; /*Mobile 18px/24px)*/
+  }
 }
 
 /*--------------------------------------------------------------
