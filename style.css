@@ -1785,7 +1785,7 @@ body#events, #events footer {
   }
 
   #partners .panel-grid-cell .so-panel {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
 }
 
