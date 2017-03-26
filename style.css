@@ -1083,7 +1083,7 @@ a#button-all-news:hover {
     bottom: 20px !important;
   }
 
-  .profile .textwidget p,
+  #about .profile .textwidget p,
   #contact .textwidget p,
   .meta-nav,
   .post-navigation .post-title {
