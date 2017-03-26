@@ -1785,14 +1785,14 @@ body#events, #events footer {
     height: 80px;
   }
 
-  #partners .text-widget a:after {
+  #partners .textwidget a:after {
     content: "";
     display: inline-block;
     height: 100%;
     vertical-align: middle;
   }
 
-  #partners .text-widget a img {
+  #partners .textwidget a img {
     vertical-align: middle;
   }
 
