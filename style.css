@@ -1692,10 +1692,8 @@ body#events, #events footer {
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
   .textwidget .supsystic-tables-wrap {
-    width: 82%;
+    width: 68%;
     margin: 0 auto;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   #events table, #events td {
@@ -1703,12 +1701,13 @@ body#events, #events footer {
   }
 
   table.oneColumn tr {
-    border: none;
+    border: none !important;
   }
 
   td[data-cell-id='A9'],
-  td[data-cell-id='A10'] {
-    padding-top: 1.25rem;
+  td[data-cell-id='A10'],
+  td[data-cell-id='A11'] {
+    padding-top: 1.25rem !important;
   }
 }
 
