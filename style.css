@@ -1092,6 +1092,7 @@ a#button-all-news:hover {
   #contact {
     height: auto;
     width: 80%;
+    padding: 10px;
   }
 
   #contact .information > .widget {
