@@ -1806,6 +1806,10 @@ body#events, #events footer {
     margin: 0 auto;
   }*/
 
+  #partners .textwidget a img {
+    margin: auto;
+  }
+
   #partners .panel-grid-cell .so-panel {
     margin-bottom: 0 !important;
   }
