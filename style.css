@@ -893,12 +893,30 @@ a#button-all-news:hover {
 }
 
 @media only screen and (max-width: 40.0625em), screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+
+  /*Mobile slider height */
   #home-slider .slick-image-slide, .slide-wrap {
     height: auto !important;
   }
 
   #home-slider div.slick-image-slide.slick-slide.slick-cloned {
     height: auto;
+  }
+
+  /* Mobile slider caption width */
+  #home-slider .wp-medium-1,
+  #home-slider .wp-medium-2,
+  #home-slider .wp-medium-3,
+  #home-slider .wp-medium-4,
+  #home-slider .wp-medium-5,
+  #home-slider .wp-medium-6,
+  #home-slider .wp-medium-7,
+  #home-slider .wp-medium-8,
+  #home-slider .wp-medium-9,
+  #home-slider .wp-medium-10,
+  #home-slider .wp-medium-11,
+  #home-slider .wp-medium-12 {
+      width: 100%;
   }
 
 }
