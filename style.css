@@ -892,7 +892,7 @@ a#button-all-news:hover {
 
   #home-text .widget_recent-posts .col li,
   #home-text .widget_recent-posts .col li a {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
     padding-top: 0;
   }
 
