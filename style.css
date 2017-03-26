@@ -2062,11 +2062,6 @@ body.search .page-header::after {
      background-image: none;
   }
 
-  .search-no-results .site-footer {
-    position: inherit;
-    bottom: auto;
-  }
-
   .search-no-results .site-main {
     margin: 5.5rem 0 0 0;
   }
@@ -2204,6 +2199,11 @@ li.social-icons li:hover, a[href='http://web.mit.edu/']:hover {
     width: 1.5em;
     height: 1.5em;
     background-size: contain;
+  }
+
+  .search-no-results .site-footer {
+    position: inherit;
+    bottom: auto;
   }
 
 }
