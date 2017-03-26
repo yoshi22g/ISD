@@ -1252,7 +1252,7 @@ a#button-all-news:hover {
 }
 
 #link-arrow.closed {
-   transform: none;
+   /*transform: none;*/
    transform: rotate(0deg) translateY(3px);
 }
 
@@ -1322,6 +1322,8 @@ a.research-caption-link {
     margin-left: 10px;
     display: inline-block;
     width: 80vw;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
   }
 
   #research .site-header, #research .main-navigation {
@@ -1330,6 +1332,23 @@ a.research-caption-link {
 
   #research .main-navigation a:hover {
    color: #000;
+  }
+
+  #research .wpsisac-slick-slider.design-3 .slick-dots {
+    bottom: -24px !important;
+  }
+
+  #link-arrow.closed {
+    vertical-align: top;
+  }
+
+  #research .so-panel.widget.widget_sow-editor.panel-first-child {
+
+  }
+
+  #research h1 {
+    margin-bottom: 0;
+    margin-top: 50px;
   }
 }
 
