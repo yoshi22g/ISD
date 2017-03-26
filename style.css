@@ -1691,7 +1691,16 @@ body#events, #events footer {
 }
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  .textwidget .supsystic-tables-wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 
+  #events table, #events td {
+    text-align: center;
+  }
 }
 
 
