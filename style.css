@@ -1783,6 +1783,7 @@ body#events, #events footer {
     display: flex;
     line-height: 0;
     flex-direction: column;
+    height:5rem;
   }
 
   /*
