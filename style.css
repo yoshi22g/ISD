@@ -1699,7 +1699,9 @@ body#events, #events footer {
   }
 
   #events table, #events td {
-    text-align: center;
+    text-align: left;
+    font-size:0.875rem;
+    line-height: 1.25rem;
   }
 }
 
