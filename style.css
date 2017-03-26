@@ -1774,14 +1774,13 @@ body#events, #events footer {
     width: 100%;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    flex-wrap: wrap;
+    display: block;
   }
 
   #partners .textwidget a {
     margin: 1rem auto;
-    flex-basis: 80%;
-    flex-shrink: 0;
     text-align: center;
+    display: block;
   }
 
   #partners .panel-grid-cell .so-panel {
