@@ -1577,6 +1577,7 @@ li span.page-numbers.current {
 
   #learning-making hr {
     margin-top: 1.5em;
+    background-color: #000000;
   }
 
   #learning-making .entry-content p {
