@@ -1075,7 +1075,7 @@ a#button-all-news:hover {
 
   #home-slider .wpsisac-slick-slider.design-3 .slick-dots,
   #about-slider .wpsisac-slick-slider.design-3 .slick-dots {
-    right: 30px;
+    right: 20px;
     bottom: 20px !important;
   }
 }
