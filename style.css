@@ -891,6 +891,17 @@ a#button-all-news:hover {
 
 }
 
+@media only screen and (max-width: 40.0625em), screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  #home-slider .slick-image-slide, .slide-wrap {
+    height: auto !important;
+  }
+
+  #home-slider div.slick-image-slide.slick-slide.slick-cloned {
+    height: auto;
+  }
+
+}
+
 /*--------------------------------------------------------------
 #### About
 --------------------------------------------------------------*/
