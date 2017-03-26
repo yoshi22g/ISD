@@ -1500,6 +1500,14 @@ li span.page-numbers.current {
 /* News Mobile */
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  .entry-content p {
+    line-height: 1.5rem;
+  }
+
+  #news h3.entry-title {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 
 }
 

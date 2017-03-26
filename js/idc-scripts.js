@@ -50,34 +50,37 @@ jQuery(document).ready(function( $ ) {
    //move the elements to inside slider
    $('.research-caption').appendTo('#research .slick-slider');
 
-   var captionContent = function() {
+   if ($('body').attr('id') === 'research') {
+      var captionContent = function() {
 
-   //see how many slides there are
-      var slideNum = $('#research .slick-slide').length;
+      //see how many slides there are
+         var slideNum = $('#research .slick-slide').length;
 
-   //capture all content in a array
-      var slideTitle = $('#research .slick-active .slide-title').text();
-      var slideContent = $('#research .slick-active .slider-short-content').text();
-      var slideLink = $('#research .slick-active .readmore a').attr("href");
+      //capture all content in a array
+         var slideTitle = $('#research .slick-active .slide-title').text();
+         var slideContent = $('#research .slick-active .slider-short-content').text();
+         var slideLink = $('#research .slick-active .readmore a').attr("href");
 
-   //when the slide is active (slick current class applied), show the corresponding content
-      $('.research-caption-title').text(slideTitle);
-      $('.research-caption-text').text(slideContent);
-      $('.research-caption-link').attr("href", slideLink).text(slideLink);
-      console.log(slideTitle + ' ' + slideContent + ' ' + slideLink);
-   };
+      //when the slide is active (slick current class applied), show the corresponding content
+         $('.research-caption-title').text(slideTitle);
+         $('.research-caption-text').text(slideContent);
+         $('.research-caption-link').attr("href", slideLink).text(slideLink);
+         console.log(slideTitle + ' ' + slideContent + ' ' + slideLink);
+      };
 
-   window.setInterval(function(){
-      captionContent();
-   }, 1000);
+      window.setInterval(function(){
+         captionContent();
+      }, 1000);
 
-   //change caption header when clicked
-   $('#link-arrow').click(function() {
-      $(this).toggleClass('closed');
-      $('.research-caption').toggleClass('expand');
-      $('.research-caption-text').fadeToggle(500, false);
-      $('.research-caption-link').fadeToggle(500, false);
-   });
+      //change caption header when clicked
+      $('#link-arrow').click(function() {
+         $(this).toggleClass('closed');
+         $('.research-caption').toggleClass('expand');
+         $('.research-caption-text').fadeToggle(500, false);
+         $('.research-caption-link').fadeToggle(500, false);
+      });
+
+   }
 
 
    /**
