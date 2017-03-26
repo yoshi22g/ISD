@@ -329,6 +329,16 @@ a#button-all-news:hover {
   cursor: pointer;
 }
 
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width:50em) {
+  .ow-button-base a.button,
+  .ow-button-base a.button:visited,
+  .ow-button-base a.button:active,
+  .ow-button-base a:visited,
+  .ow-button-base a:active,
+  .ow-button-base .ow-button-align-center {
+    font-size: 0.875rem;
+  }
+}
 
 /*--------------------------------------------------------------
 ### Navigation
@@ -1758,6 +1768,10 @@ body#events, #events footer {
    opacity: 0.7;
 }
 
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+
+
+}
 
 /*--------------------------------------------------------------
 # Widgets
