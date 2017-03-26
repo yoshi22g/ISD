@@ -1780,7 +1780,20 @@ body#events, #events footer {
   #partners .textwidget a {
     margin: 1rem auto;
     text-align: center;
-    display: block;
+    display: inline-block;
+    line-height: 0;
+    height: 80px;
+  }
+
+  #partners .text-widget a:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  #partners .text-widget a img {
+    vertical-align: middle;
   }
 
   #partners .panel-grid-cell .so-panel {
