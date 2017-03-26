@@ -830,6 +830,8 @@ a#button-all-news:hover {
     line-height: 1.5rem;
     margin-top: 0;
     margin-bottom: 2.8125rem;
+    border-top: 1px solid #000;
+    padding-top:1rem;
   }
 
   span.post-date {
@@ -862,7 +864,6 @@ a#button-all-news:hover {
     margin: 0 1.25rem;
     font-size: 0.875rem;
     line-height: 1.125rem;
-    border-bottom: 1px solid #000;
     padding-bottom: 1rem;
   }
 
