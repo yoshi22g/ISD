@@ -1082,6 +1082,12 @@ a#button-all-news:hover {
     right: 20px;
     bottom: 20px !important;
   }
+
+  .profile .textwidget p,
+  .meta-nav,
+  .post-navigation .post-title {
+    line-height: 1.25rem;
+  }
 }
 
 /*--------------------------------------------------------------
