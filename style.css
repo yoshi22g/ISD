@@ -2064,6 +2064,8 @@ body.search .page-header::after {
 
   .search-no-results .site-main {
     margin: 5.5rem 0 0 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .search-no-results h2 {
