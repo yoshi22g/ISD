@@ -1073,7 +1073,11 @@ a#button-all-news:hover {
     margin-bottom: 3rem;
   }
 
-  #home-slider .wpsisac-slick-slider.design-3 .slick-dots,
+  #home-slider .wpsisac-slick-slider.design-3 .slick-dots {
+    right: 30px;
+    bottom: 110px !important;
+  }
+
   #about-slider .wpsisac-slick-slider.design-3 .slick-dots {
     right: 20px;
     bottom: 20px !important;
