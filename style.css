@@ -2066,6 +2066,11 @@ body.search .page-header::after {
     margin: 5.5rem 0 0 0;
   }
 
+  .search-no-results h2 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+
 
 
 }
