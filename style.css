@@ -890,11 +890,17 @@ a#button-all-news:hover {
     padding-right: 1.25rem;
   }
 
+  #home-text .widget_recent-posts .col li,
+  #home-text .widget_recent-posts .col li a {
+  margin-bottom: 1rem;
+    padding-top: 0;
+  }
+
 }
 
 @media only screen and (max-width: 40.0625em), screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
 
-  /*Mobile slider height */
+  /*Mobile slider height overriding Slick Slider styles */
   #home-slider .slick-image-slide, .slide-wrap {
     height: auto !important;
   }
@@ -903,7 +909,7 @@ a#button-all-news:hover {
     height: auto;
   }
 
-  /* Mobile slider caption width */
+  /* Mobile slider caption width overriding Slick Slider styles */
   #home-slider .wp-medium-1,
   #home-slider .wp-medium-2,
   #home-slider .wp-medium-3,
