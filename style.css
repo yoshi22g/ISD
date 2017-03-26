@@ -1783,6 +1783,10 @@ body#events, #events footer {
     flex-shrink: 0;
     text-align: center;
   }
+
+  #partners .panel-grid-cell .so-panel {
+    margin-bottom: 0;
+  }
 }
 
 /*--------------------------------------------------------------
