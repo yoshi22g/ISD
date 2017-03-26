@@ -1361,10 +1361,18 @@ a.research-caption-link {
    text-align: center;
 }
 
+/* Title Font Size only for Labs */
 @media screen and (max-width: 20em) {
   body#labs h1, body#labs h1.entry-title {
     font-size: 2.7rem;
   }
+}
+
+@media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
+  .labs .textwidget p {
+    line-height: 1.5rem;
+  }
+
 }
 
 
