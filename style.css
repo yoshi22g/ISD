@@ -1780,21 +1780,31 @@ body#events, #events footer {
   #partners .textwidget a {
     margin: 1rem auto;
     text-align: center;
+    display: flex;
+    line-height: 0;
+    flex-direction: column;
+  }
+
+  /*
+  #partners .textwidget a {
+    margin: 1rem auto;
+    text-align: center;
     display: block;
     line-height: 0;
     height: 80px;
   }
 
-  /*#partners .textwidget a:after {
+  #partners .textwidget a:after {
     content: "";
     display: inline-block;
     height: 100%;
     vertical-align: middle;
   }*/
-
+/*
   #partners .textwidget a img {
     display: block;
-  }
+    margin: 0 auto;
+  }*/
 
   #partners .panel-grid-cell .so-panel {
     margin-bottom: 0 !important;
