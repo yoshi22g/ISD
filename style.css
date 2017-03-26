@@ -2043,7 +2043,10 @@ body.search .page-header::after {
 
   input[type="search"]:focus,
   body#research input[type="search"]:focus,
-  body#events input[type="search"]:focus {
+  body#events input[type="search"]:focus,
+  body#labs input[type="search"]:focus,
+  body#news input[type="search"]:focus,
+  body#learning-making input[type="search"]:focus {
      position: static;
      background-color: #FF3250;
      cursor: text;
