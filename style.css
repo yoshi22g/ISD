@@ -1698,6 +1698,7 @@ body#events, #events footer {
 
   #events table, #events td {
     text-align: center;
+    line-height: 1.5rem;
   }
 
   table.oneColumn tr {
