@@ -1706,6 +1706,8 @@ body#events, #events footer {
   .textwidget .supsystic-tables-wrap {
     width: 100%;
     margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   #events table, #events td {
