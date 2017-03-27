@@ -1724,6 +1724,12 @@ body#events, #events footer {
 }
 
 @media screen and (max-width: 20em) {
+
+  .textwidget .supsystic-tables-wrap {
+    width: 67%;
+    margin: 0 auto;
+  }
+
   #events table, #events td {
     text-align: center;
     line-height: 1.5rem;
