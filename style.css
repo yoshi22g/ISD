@@ -1704,10 +1704,26 @@ body#events, #events footer {
 
 @media screen and (min-width: 50em) and (max-width: 68.75em), screen and (max-width: 50em) {
   .textwidget .supsystic-tables-wrap {
-    width: 68%;
+    width: 100%;
     margin: 0 auto;
   }
 
+  #events table, #events td {
+    text-align: left;
+    line-height: 1.5rem;
+  }
+
+  table.oneColumn tr {
+    border: none !important;
+  }
+
+  #events .textwidget h4 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 40em) {
   #events table, #events td {
     text-align: center;
     line-height: 1.5rem;
@@ -1721,11 +1737,6 @@ body#events, #events footer {
   td[data-cell-id='A10'],
   td[data-cell-id='A11'] {
     padding-top: 1.25rem !important;
-  }
-
-  #events .textwidget h4 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 }
 
