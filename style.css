@@ -2067,7 +2067,7 @@ body.search .page-header::after {
      background-image: none;
   }
 
-  .search-no-results .site-main {
+  .search-no-results .site-main, .search-results .site-main {
     margin: 5.5rem 0 0 0;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
