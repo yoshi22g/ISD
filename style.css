@@ -2099,6 +2099,12 @@ body.search .page-header::after {
     line-height: 2.25rem;
   }
 
+  .search-results .entry-content p {
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
 
 
 }
